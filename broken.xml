@@ -1,4 +1,4 @@
-<testsuite >
+<testsuite>
 <testcase classname="wcet_regression" name="CheckCplex" time="0.110477">
 <system-out>
 
