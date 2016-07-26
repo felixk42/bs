@@ -45,16 +45,16 @@ CPLEX </system-out>
 <system-out>
 Isabelle platform is x8664linux
 Building PolyML in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/polyml
-/remoteagent/xmldata/builddir/TESWCETMJOB1/polyml /remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
+~/remoteagent/xmldata/builddir/TESWCETMJOB1/polyml ~/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
 Setting up PolyML
-/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
+~/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
 Built PolyML
 HOL4 not built configuring
-/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4 /remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
-/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
+~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4 ~/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
+~/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
 Configured HOL4
-/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4 /remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
-/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
+~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4 ~/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
+~/remoteagent/xmldata/builddir/TESWCETMJOB1/graphrefine/seL4example
 Configured graphrefine to use CVC4 SMT solver
 Self test passed
 /usr/bin/mlton
@@ -603,12 +603,12 @@ Writing HOLPage
 Hol built successfully
 cd //HOL4/examples/machinecode/graph  PATH/home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/bin://seL4/tools:ATH:/home/bamboo/local/cplex126/cplex/bin/x8664linux/:/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games Holmake
 Recursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompiler
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompilerRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/prog
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/progRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/step
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/stepRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecodeRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/common
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/commonRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretriple
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretriple0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretripleStarting work on setsepTheory
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompilerRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/prog
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/progRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/step
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/stepRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecodeRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/common
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/commonRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretriple
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretriple0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretripleStarting work on setsepTheory
 Starting work on tailrecTheory
 tailrecTheory                                                                 OK
 setsepTheory                                                                 OK
@@ -619,35 +619,35 @@ Starting work on temporalTheory
 temporalTheory                                                                OK
 addressTheory                                                                 OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/hoaretriple
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/common0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/commonStarting work on tripleTheory
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/common0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/commonStarting work on tripleTheory
 Starting work on stateTheory
 tripleTheory                                                                  OK
 stateTheory                                                                   OK
 Starting work on temporalstateTheory
 temporalstateTheory                                                          OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/common
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecodeRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompiler
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompiler0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompilerFinished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompiler
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecodeStarting work on l3heap
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecodeRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompiler
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompiler0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompilerFinished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/machinecode/decompiler
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecodeStarting work on l3heap
 l3heap                                                                       OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/stepRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/model
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/modelRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/lib
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/lib0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/libFinished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/lib
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/model0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/modelStarting work on armTheory
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/stepRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/model
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/modelRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/lib
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/lib0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/libFinished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/lib
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/model0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/modelStarting work on armTheory
 armTheory                                                                     OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/model
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/step0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/stepStarting work on armheap
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/step0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/stepStarting work on armheap
 armheap                                                                      OK
 Starting work on armstepTheory
 armstepTheory                                                                OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/step
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/prog0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/progStarting work on armstepheap
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/prog0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/progStarting work on armstepheap
 armstepheap                                                                 OK
 Starting work on armprogTheory
 armprogTheory                                                                OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/prog
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompiler0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompiler/home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/bin/buildheap b /prog/armstepheap o armprogheap /prog/armprogLib
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompiler0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompiler/home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/bin/buildheap b /prog/armstepheap o armprogheap /prog/armprogLib
 
 Loading /prog/armprogLib
 Specializing fetch: 4  11
@@ -929,23 +929,23 @@ Exporting theory armdecompdemo  done
 Theory armdecompdemo took 551s to build
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/arm/decompiler
 0Holmake: Recursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompiler
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompilerRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/prog
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/progRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/step
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/stepRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/model
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/model0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/modelStarting work on m0Theory
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompilerRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/prog
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/progRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/step
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/stepRecursively calling Holmake in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/model
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/model0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/modelStarting work on m0Theory
 m0Theory                                                                      OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/model
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/step0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/stepStarting work on m0heap
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/step0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/stepStarting work on m0heap
 m0heap                                                                       OK
 Starting work on m0stepTheory
 m0stepTheory                                                                 OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/step
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/prog0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/progStarting work on m0stepheap
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/prog0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/progStarting work on m0stepheap
 m0stepheap                                                                  OK
 Starting work on m0progTheory
 m0progTheory                                                                 OK
 Finished recursive invocation in /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/prog
-0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompiler0Holmake: /remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompiler/home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/bin/buildheap b /prog/m0stepheap o m0progheap /prog/m0progLib
+0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompiler0Holmake: ~/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/examples/l3machinecode/m0/decompiler/home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/HOL4/bin/buildheap b /prog/m0stepheap o m0progheap /prog/m0progLib
 
 Loading /prog/m0progLib
 Specializing fetch: 2  22
@@ -1095,11 +1095,11 @@ Warning: /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/l4v/tools/cparse
     in: case enode e of BinOp t e e2    nknown expr type
 Warning: /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/l4v/tools/cparser/StrictClexsml 1438747
   Declaration is not exhaustive
-    missing pattern: ::  ::  nil  ::  nil  nil
+    missing pattern: ::  ::  nil | ::  nil | nil
     in:  :: nstr :: fstr ::   Stringtokens CharisSpace yytext
 Warning: /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/l4v/tools/cparser/StrictClexsml 1437347
   Declaration is not exhaustive
-    missing pattern: ::  ::  nil  ::  nil  nil
+    missing pattern: ::  ::  nil | ::  nil | nil
     in:  :: nstr :: fstr ::   Stringtokens CharisSpace yytext
 make1: Leaving directory /home/bamboo/remoteagent/xmldata/builddir/TESWCETMJOB1/l4v/tools/cparser/standaloneparser
 //l4v/tools/cparser/standaloneparser/cparser mmbytes kernelallcpp  kernelsigs
