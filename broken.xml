@@ -1,5 +1,5 @@
 <testsuite >
-<testcase classname="wcet_regression" name="CheckCplex" time="0.110477">
+<testcase classname="wcet_regression" name="CheckCplex" time="0.103230">
 <system-out>
 
 Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 12.6.0.0
@@ -37,11 +37,11 @@ Enter enough characters to uniquely identify commands &amp; options. Commands ca
 entered partially (CPLEX will prompt you for further information) or as a whole.
 CPLEX&gt; </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="CheckChronos" time="0.114504">
+<testcase classname="wcet_regression" name="CheckChronos" time="0.133620">
 <system-out>
 </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="BinaryProofEnvironment" time="71.632682">
+<testcase classname="wcet_regression" name="BinaryProofEnvironment" time="71.142523">
 <system-out>
 Isabelle platform is x86_64-linux
 Building PolyML in /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/polyml
@@ -61,16 +61,16 @@ Self test passed.
 MLton available.
 </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="HOL4GraphTheories" time="3168.622408">
+<testcase classname="wcet_regression" name="HOL4GraphTheories" time="3157.145356">
 <system-out>
 PATH=/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin:../../seL4/tools:ATH:/home/bamboo/local/cplex-12.6/cplex/bin/x86-64_linux/:/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games build
 Cleaning out /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
 /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj cleaned
-[1mBuilding directory tools/mlyacc/mlyacclib [22 Jul, 08:05:10]
+[1mBuilding directory tools/mlyacc/mlyacclib [29 Jul, 07:36:25]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/portableML/poly [22 Jul, 08:05:10]
+[1mBuilding directory src/portableML/poly [29 Jul, 07:36:25]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/portableML [22 Jul, 08:05:10]
+[1mBuilding directory src/portableML [29 Jul, 07:36:26]
 [0m]0;Holmake: .Starting work on FunctionalRecordUpdate.sml
 Starting work on GetOpt.sig
 Starting work on GetOpt.sml
@@ -78,23 +78,23 @@ FunctionalRecordUpdate.sml                                                    OK
 GetOpt.sig                                                                    OK
 GetOpt.sml                                                                    OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/prekernel [22 Jul, 08:05:11]
+[1mBuilding directory src/prekernel [29 Jul, 07:36:27]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/0 [22 Jul, 08:05:12]
+[1mBuilding directory src/0 [29 Jul, 07:36:27]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/postkernel [22 Jul, 08:05:12]
+[1mBuilding directory src/postkernel [29 Jul, 07:36:28]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/parse [22 Jul, 08:05:13]
+[1mBuilding directory src/parse [29 Jul, 07:36:28]
 [0m]0;Holmake: .Starting work on base_lexer.sml
 base_lexer.sml                                                                OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/opentheory [22 Jul, 08:05:15]
+[1mBuilding directory src/opentheory [29 Jul, 07:36:31]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/bool [22 Jul, 08:05:15]
+[1mBuilding directory src/bool [29 Jul, 07:36:31]
 [0m]0;Holmake: .Starting work on boolTheory
 boolTheory                                                                    OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/1 [22 Jul, 08:05:31]
+[1mBuilding directory src/1 [29 Jul, 07:36:45]
 [0m]0;Holmake: .Starting work on DiskFiles.grm-sig.sml DiskFiles.grm.sml
 Starting work on DiskFiles.lex.sml
 Starting work on ConseqConvTheory
@@ -104,13 +104,13 @@ DiskFiles.lex.sml                                                             OK
 DiskFiles.grm-sig.sml DiskFiles.grm.sml                                       OK
 ConseqConvTheory                                                              OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/proofman [22 Jul, 08:05:40]
+[1mBuilding directory src/proofman [29 Jul, 07:36:55]
 [0m]0;Holmake: .Starting work on /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin/hol.state0
 /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin/hol.state0OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/compute/src [22 Jul, 08:05:47]
+[1mBuilding directory src/compute/src [29 Jul, 07:37:03]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat/sat_solvers/minisat [22 Jul, 08:05:47]
+[1mBuilding directory src/HolSat/sat_solvers/minisat [29 Jul, 07:37:03]
 [0mmake[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/minisat&apos;
 Makefile:88: depend.mak: No such file or directory
 Making dependencies ...
@@ -124,7 +124,7 @@ Proof.o: In function `Proof::Proof()&apos;:
 Proof.C:(.text+0x9e): warning: the use of `tempnam&apos; is dangerous, better use `mkstemp&apos;
 make[1]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/minisat&apos;
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat/sat_solvers/zc2hs [22 Jul, 08:05:50]
+[1mBuilding directory src/HolSat/sat_solvers/zc2hs [29 Jul, 07:37:05]
 [0mmake[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/zc2hs&apos;
 ln -fs ../minisat/Proof.o
 ln -fs ../minisat/File.o
@@ -138,79 +138,79 @@ Proof.o: In function `Proof::Proof()&apos;:
 Proof.C:(.text+0x9e): warning: the use of `tempnam&apos; is dangerous, better use `mkstemp&apos;
 make[1]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/zc2hs&apos;
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat [22 Jul, 08:05:51]
+[1mBuilding directory src/HolSat [29 Jul, 07:37:07]
 [0m]0;Holmake: .Starting work on satTheory
 satTheory                                                                     OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/taut [22 Jul, 08:05:53]
+[1mBuilding directory src/taut [29 Jul, 07:37:08]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/marker [22 Jul, 08:05:53]
+[1mBuilding directory src/marker [29 Jul, 07:37:08]
 [0m]0;Holmake: .Starting work on markerTheory
 markerTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/q [22 Jul, 08:05:54]
+[1mBuilding directory src/q [29 Jul, 07:37:09]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/combin [22 Jul, 08:05:54]
+[1mBuilding directory src/combin [29 Jul, 07:37:09]
 [0m]0;Holmake: .Starting work on combinTheory
 combinTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/lite [22 Jul, 08:05:56]
+[1mBuilding directory src/lite [29 Jul, 07:37:11]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/refute [22 Jul, 08:05:56]
+[1mBuilding directory src/refute [29 Jul, 07:37:12]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/simp/src [22 Jul, 08:05:56]
+[1mBuilding directory src/simp/src [29 Jul, 07:37:12]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/metis [22 Jul, 08:05:57]
+[1mBuilding directory src/metis [29 Jul, 07:37:13]
 [0m]0;Holmake: .Starting work on normalFormsTheory
 normalFormsTheory                                                             OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/hh/hh1 [22 Jul, 08:05:59]
+[1mBuilding directory src/holyhammer/hh/hh1 [29 Jul, 07:37:15]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/hh [22 Jul, 08:05:59]
+[1mBuilding directory src/holyhammer/hh [29 Jul, 07:37:15]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/predict [22 Jul, 08:06:00]
+[1mBuilding directory src/holyhammer/predict [29 Jul, 07:37:15]
 [0m]0;Holmake: .Starting work on predict
 predict                                                                       OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/predict/mepo [22 Jul, 08:06:02]
+[1mBuilding directory src/holyhammer/predict/mepo [29 Jul, 07:37:18]
 [0m]0;Holmake: .Starting work on geo
 Starting work on mepo3
 geo                                                                           OK
 mepo3                                                                         OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer [22 Jul, 08:06:04]
+[1mBuilding directory src/holyhammer [29 Jul, 07:37:19]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/meson/src [22 Jul, 08:06:04]
+[1mBuilding directory src/meson/src [29 Jul, 07:37:19]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/IndDef [22 Jul, 08:06:04]
+[1mBuilding directory src/IndDef [29 Jul, 07:37:20]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/basicProof [22 Jul, 08:06:04]
+[1mBuilding directory src/basicProof [29 Jul, 07:37:20]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/relation [22 Jul, 08:06:05]
+[1mBuilding directory src/relation [29 Jul, 07:37:20]
 [0m]0;Holmake: .Starting work on relationTheory
 relationTheory                                                                OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/one [22 Jul, 08:06:17]
+[1mBuilding directory src/one [29 Jul, 07:37:33]
 [0m]0;Holmake: .Starting work on oneTheory
 oneTheory                                                                     OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/pair/src [22 Jul, 08:06:22]
+[1mBuilding directory src/pair/src [29 Jul, 07:37:39]
 [0m]0;Holmake: .Starting work on pairTheory
 pairTheory                                                                    OK
 Starting work on posetTheory
 posetTheory                                                                   OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/sum [22 Jul, 08:06:44]
+[1mBuilding directory src/sum [29 Jul, 07:37:59]
 [0m]0;Holmake: .Starting work on sumTheory
 sumTheory                                                                     OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/tfl/src [22 Jul, 08:06:50]
+[1mBuilding directory src/tfl/src [29 Jul, 07:38:06]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/option [22 Jul, 08:06:50]
+[1mBuilding directory src/option [29 Jul, 07:38:06]
 [0m]0;Holmake: .Starting work on optionTheory
 optionTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/theories [22 Jul, 08:06:59]
+[1mBuilding directory src/num/theories [29 Jul, 07:38:16]
 [0m]0;Holmake: .Starting work on numTheory
 numTheory                                                                     OK
 Starting work on prim_recTheory
@@ -219,22 +219,22 @@ Starting work on arithmeticTheory
 arithmeticTheory                                                              OK
 Starting work on numeralTheory
 Starting work on whileTheory
+whileTheory                                                                   OK
 numeralTheory                                                                 OK
 Starting work on basicSizeTheory
-whileTheory                                                                   OK
 basicSizeTheory                                                               OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/reduce/src [22 Jul, 08:07:48]
+[1mBuilding directory src/num/reduce/src [29 Jul, 07:39:02]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/arith/src [22 Jul, 08:07:48]
+[1mBuilding directory src/num/arith/src [29 Jul, 07:39:03]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num [22 Jul, 08:07:50]
+[1mBuilding directory src/num [29 Jul, 07:39:04]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/termination [22 Jul, 08:07:50]
+[1mBuilding directory src/num/termination [29 Jul, 07:39:04]
 [0m]0;Holmake: .Starting work on numheap
 numheap                                                                       OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/extra_theories [22 Jul, 08:08:03]
+[1mBuilding directory src/num/extra_theories [29 Jul, 07:39:16]
 [0m]0;Holmake: .Starting work on logrootTheory
 Starting work on dividesTheory
 Starting work on numpairTheory
@@ -248,7 +248,7 @@ bitTheory                                                                     OK
 Starting work on numeral_bitTheory
 numeral_bitTheory                                                             OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/pred_set/src [22 Jul, 08:08:19]
+[1mBuilding directory src/pred_set/src [29 Jul, 07:39:32]
 [0m]0;Holmake: .Starting work on pred_setTheory
 pred_setTheory                                                                OK
 Starting work on fixedPointTheory
@@ -258,15 +258,15 @@ gcdsetTheory                                                                  OK
 fixedPointTheory                                                              OK
 set_relationTheory                                                            OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype/equiv [22 Jul, 08:08:51]
+[1mBuilding directory src/datatype/equiv [29 Jul, 07:40:03]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype/record [22 Jul, 08:08:51]
+[1mBuilding directory src/datatype/record [29 Jul, 07:40:03]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype [22 Jul, 08:08:52]
+[1mBuilding directory src/datatype [29 Jul, 07:40:03]
 [0m]0;Holmake: .Starting work on ind_typeTheory
 ind_typeTheory                                                                OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/list/src [22 Jul, 08:08:55]
+[1mBuilding directory src/list/src [29 Jul, 07:40:07]
 [0m]0;Holmake: .Starting work on operatorTheory
 operatorTheory                                                                OK
 Starting work on listTheory
@@ -280,29 +280,29 @@ Starting work on numposrepTheory
 indexedListsTheory                                                            OK
 numposrepTheory                                                               OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/monad [22 Jul, 08:09:42]
+[1mBuilding directory src/monad [29 Jul, 07:40:53]
 [0m]0;Holmake: .Starting work on errorStateMonadTheory
 Starting work on state_transformerTheory
-errorStateMonadTheory                                                         OK
 state_transformerTheory                                                       OK
+errorStateMonadTheory                                                         OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/quantHeuristics [22 Jul, 08:09:51]
+[1mBuilding directory src/quantHeuristics [29 Jul, 07:41:03]
 [0m]0;Holmake: .Starting work on quantHeuristicsTheory
 quantHeuristicsTheory                                                         OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/unwind [22 Jul, 08:10:06]
+[1mBuilding directory src/unwind [29 Jul, 07:41:19]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat/vector_def_CNF [22 Jul, 08:10:07]
+[1mBuilding directory src/HolSat/vector_def_CNF [29 Jul, 07:41:19]
 [0m]0;Holmake: .Starting work on defCNFTheory
 defCNFTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/boss/ml_evaluation [22 Jul, 08:10:16]
+[1mBuilding directory src/boss/ml_evaluation [29 Jul, 07:41:29]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/boss [22 Jul, 08:10:17]
+[1mBuilding directory src/boss [29 Jul, 07:41:29]
 [0m]0;Holmake: .Starting work on /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin/hol.state
 /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin/hol.stateOK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/TeX [22 Jul, 08:10:26]
+[1mBuilding directory src/TeX [29 Jul, 07:41:39]
 [0m]0;Holmake: .Starting work on /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin/mkmunge.exe
 Starting work on holindex.grm-sig.sml holindex.grm.sml
 Starting work on holindex.lex.sml
@@ -314,13 +314,13 @@ holindex.grm-sig.sml holindex.grm.sml                                         OK
 munger.lex.sml                                                                OK
 /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin/mkmunge.exeOK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/sort [22 Jul, 08:10:31]
+[1mBuilding directory src/sort [29 Jul, 07:41:43]
 [0m]0;Holmake: .Starting work on sortingTheory
 sortingTheory                                                                 OK
 Starting work on mergesortTheory
 mergesortTheory                                                               OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/string [22 Jul, 08:10:46]
+[1mBuilding directory src/string [29 Jul, 07:41:59]
 [0m]0;Holmake: .Starting work on stringTheory
 stringTheory                                                                  OK
 Starting work on ASCIInumbersTheory
@@ -328,11 +328,11 @@ Starting work on string_numTheory
 string_numTheory                                                              OK
 ASCIInumbersTheory                                                            OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/res_quan/src [22 Jul, 08:11:04]
+[1mBuilding directory src/res_quan/src [29 Jul, 07:42:17]
 [0m]0;Holmake: .Starting work on res_quanTheory
 res_quanTheory                                                                OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/quotient/src [22 Jul, 08:11:09]
+[1mBuilding directory src/quotient/src [29 Jul, 07:42:21]
 [0m]0;Holmake: .Starting work on quotientTheory
 quotientTheory                                                                OK
 Starting work on quotient_listTheory
@@ -340,13 +340,13 @@ Starting work on quotient_optionTheory
 Starting work on quotient_pairTheory
 Starting work on quotient_sumTheory
 quotient_optionTheory                                                         OK
-quotient_sumTheory                                                            OK
 quotient_pairTheory                                                           OK
 Starting work on quotient_pred_setTheory
+quotient_sumTheory                                                            OK
 quotient_listTheory                                                           OK
 quotient_pred_setTheory                                                       OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/finite_map [22 Jul, 08:11:26]
+[1mBuilding directory src/finite_map [29 Jul, 07:42:38]
 [0m]0;Holmake: .Starting work on finite_mapTheory
 finite_mapTheory                                                              OK
 Starting work on alistTheory
@@ -354,7 +354,7 @@ Starting work on fmaptreeTheory
 fmaptreeTheory                                                                OK
 alistTheory                                                                   OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/bag [22 Jul, 08:11:47]
+[1mBuilding directory src/bag [29 Jul, 07:42:59]
 [0m]0;Holmake: .Starting work on bagTheory
 bagTheory                                                                     OK
 Starting work on containerTheory
@@ -362,7 +362,7 @@ Starting work on primeFactorTheory
 primeFactorTheory                                                             OK
 containerTheory                                                               OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/n-bit [22 Jul, 08:12:11]
+[1mBuilding directory src/n-bit [29 Jul, 07:43:24]
 [0m]0;Holmake: .Starting work on sum_numTheory
 Starting work on fcpTheory
 sum_numTheory                                                                 OK
@@ -376,7 +376,7 @@ alignmentTheory                                                               OK
 blastTheory                                                                   OK
 bitstringTheory                                                               OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/ring/src [22 Jul, 08:13:18]
+[1mBuilding directory src/ring/src [29 Jul, 07:44:30]
 [0m]0;Holmake: .Starting work on prelimTheory
 Starting work on semi_ringTheory
 prelimTheory                                                                  OK
@@ -392,15 +392,15 @@ ringNormTheory                                                                OK
 Starting work on numRingTheory
 numRingTheory                                                                 OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/integer [22 Jul, 08:13:47]
+[1mBuilding directory src/integer [29 Jul, 07:44:59]
 [0m]0;Holmake: .Starting work on integerTheory
 integerTheory                                                                 OK
 Starting work on int_arithTheory
 Starting work on OmegaTheory
 Starting work on integerRingTheory
-integerRingTheory                                                             OK
 int_arithTheory                                                               OK
 Starting work on DeepSyntaxTheory
+integerRingTheory                                                             OK
 OmegaTheory                                                                   OK
 Starting work on int_bitwiseTheory
 Starting work on integer_wordTheory
@@ -408,7 +408,7 @@ DeepSyntaxTheory                                                              OK
 int_bitwiseTheory                                                             OK
 integer_wordTheory                                                            OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/enumfset [22 Jul, 08:14:40]
+[1mBuilding directory src/enumfset [29 Jul, 07:45:52]
 [0m]0;Holmake: .Starting work on wotTheory
 wotTheory                                                                     OK
 Starting work on totoTheory
@@ -424,17 +424,17 @@ Starting work on fmapalTheory
 comparisonTheory                                                              OK
 fmapalTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/llist [22 Jul, 08:15:28]
+[1mBuilding directory src/llist [29 Jul, 07:46:40]
 [0m]0;Holmake: .Starting work on llistTheory
 llistTheory                                                                   OK
 Starting work on lbtreeTheory
 lbtreeTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/path [22 Jul, 08:15:55]
+[1mBuilding directory src/path [29 Jul, 07:47:05]
 [0m]0;Holmake: .Starting work on pathTheory
 pathTheory                                                                    OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/patricia [22 Jul, 08:16:06]
+[1mBuilding directory src/patricia [29 Jul, 07:47:16]
 [0m]0;Holmake: .Starting work on patriciaTheory
 Starting work on sptreeTheory
 sptreeTheory                                                                  OK
@@ -442,17 +442,17 @@ patriciaTheory                                                                OK
 Starting work on patricia_castsTheory
 patricia_castsTheory                                                          OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/update [22 Jul, 08:16:53]
+[1mBuilding directory src/update [29 Jul, 07:48:04]
 [0m]0;Holmake: .Starting work on updateTheory
 updateTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/emit [22 Jul, 08:16:59]
+[1mBuilding directory src/emit [29 Jul, 07:48:10]
 [0m]0;Holmake: .Starting work on basis_emitTheory
 basis_emitTheory                                                              OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/hol88 [22 Jul, 08:17:51]
+[1mBuilding directory src/hol88 [29 Jul, 07:49:03]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/rational [22 Jul, 08:17:51]
+[1mBuilding directory src/rational [29 Jul, 07:49:03]
 [0m]0;Holmake: .Starting work on intExtensionTheory
 intExtensionTheory                                                            OK
 Starting work on fracTheory
@@ -462,11 +462,11 @@ ratTheory                                                                     OK
 Starting work on ratRingTheory
 ratRingTheory                                                                 OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype/inftree [22 Jul, 08:18:57]
+[1mBuilding directory src/datatype/inftree [29 Jul, 07:50:07]
 [0m]0;Holmake: .Starting work on inftreeTheory
 inftreeTheory                                                                 OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/search [22 Jul, 08:19:02]
+[1mBuilding directory src/search [29 Jul, 07:50:12]
 [0m]0;Holmake: .Starting work on dirGraphTheory
 dirGraphTheory                                                                OK
 Starting work on bftTheory
@@ -474,7 +474,7 @@ Starting work on dftTheory
 bftTheory                                                                     OK
 dftTheory                                                                     OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/real [22 Jul, 08:19:12]
+[1mBuilding directory src/real [29 Jul, 07:50:22]
 [0m]0;Holmake: .Starting work on hratTheory
 hratTheory                                                                    OK
 Starting work on hrealTheory
@@ -504,17 +504,17 @@ real_sigmaTheory                                                              OK
 integralTheory                                                                OK
 intrealTheory                                                                 OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/complex [22 Jul, 08:21:29]
+[1mBuilding directory src/complex [29 Jul, 07:52:35]
 [0m]0;Holmake: .Starting work on complexTheory
 complexTheory                                                                 OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolQbf [22 Jul, 08:21:46]
+[1mBuilding directory src/HolQbf [29 Jul, 07:52:52]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSmt [22 Jul, 08:21:46]
+[1mBuilding directory src/HolSmt [29 Jul, 07:52:52]
 [0m]0;Holmake: .Starting work on HolSmtTheory
 HolSmtTheory                                                                  OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/Boolify/src [22 Jul, 08:22:14]
+[1mBuilding directory src/Boolify/src [29 Jul, 07:53:20]
 [0m]0;Holmake: .Starting work on EncodeTheory
 EncodeTheory                                                                  OK
 Starting work on DecodeTheory
@@ -524,21 +524,21 @@ CoderTheory                                                                   OK
 Starting work on EncodeVarTheory
 EncodeVarTheory                                                               OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/float [22 Jul, 08:22:41]
+[1mBuilding directory src/float [29 Jul, 07:53:47]
 [0m]0;Holmake: .Starting work on ieeeTheory
 ieeeTheory                                                                    OK
 Starting work on floatTheory
 floatTheory                                                                   OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/floating-point [22 Jul, 08:23:19]
+[1mBuilding directory src/floating-point [29 Jul, 07:54:23]
 [0m]0;Holmake: .Starting work on binary_ieeeTheory
 binary_ieeeTheory                                                             OK
 Starting work on machine_ieeeTheory
 machine_ieeeTheory                                                            OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/floating-point/native [22 Jul, 08:24:34]
+[1mBuilding directory src/floating-point/native [29 Jul, 07:55:33]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/probability [22 Jul, 08:24:34]
+[1mBuilding directory src/probability [29 Jul, 07:55:33]
 [0m]0;Holmake: .Starting work on util_probTheory
 util_probTheory                                                               OK
 Starting work on extrealTheory
@@ -550,7 +550,7 @@ lebesgueTheory                                                                OK
 Starting work on probabilityTheory
 probabilityTheory                                                             OK
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/temporal/src [22 Jul, 08:27:00]
+[1mBuilding directory src/temporal/src [29 Jul, 07:58:07]
 [0m]0;Holmake: .Starting work on Temporal_LogicTheory
 Temporal_LogicTheory                                                          OK
 Starting work on Past_Temporal_LogicTheory
@@ -661,7 +661,7 @@ Linking arm_decompScript.uo to produce theory-builder executable
 &lt;&lt;HOL message: Created theory &quot;arm_decomp&quot;&gt;&gt;
 Saved definition __ &quot;arm_OK_def&quot;
 Exporting theory &quot;arm_decomp&quot; ... done.
-Theory &quot;arm_decomp&quot; took 0.08400s to build
+Theory &quot;arm_decomp&quot; took 0.07600s to build
 Linking arm_core_decompScript.uo to produce theory-builder executable
 &lt;&lt;HOL message: Created theory &quot;arm_core_decomp&quot;&gt;&gt;
 Saved theorem _____ &quot;datatype_arm_assertion&quot;
@@ -876,7 +876,7 @@ Deriving instruction specs for &quot;PID_C2&quot;...
 [A 1 LDMIA (wb);4.+[1K
 [A Finished 139 instructions.
 
-runtime: 30.9s,    gctime: 3.3s,     systime: 0.60000s.
+runtime: 27.4s,    gctime: 1.2s,     systime: 0.29200s.
 
 Processing...
 
@@ -922,11 +922,11 @@ Processing...
 [APID_C2: ....[1K
 [AFinished.
 
-runtime: 1.6s,    gctime: 0.04000s,     systime: 0.00400s.
+runtime: 1.6s,    gctime: 0.05600s,     systime: 0.01200s.
 Saved theorem _____ &quot;PID_C2_def&quot;
 Saved theorem _____ &quot;PID_C2_cert&quot;
 Exporting theory &quot;arm_decomp_demo&quot; ... done.
-Theory &quot;arm_decomp_demo&quot; took 55.1s to build
+Theory &quot;arm_decomp_demo&quot; took 50.5s to build
 Finished recursive invocation in /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/examples/l3-machine-code/arm/decompiler
 ]0;Holmake: .Recursively calling Holmake in /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/examples/l3-machine-code/m0/decompiler
 ]0;Holmake: ~/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/examples/l3-machine-code/m0/decompilerRecursively calling Holmake in /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/examples/l3-machine-code/m0/prog
@@ -960,7 +960,7 @@ Linking m0_decompScript.uo to produce theory-builder executable
 &lt;&lt;HOL message: Created theory &quot;m0_decomp&quot;&gt;&gt;
 Saved definition __ &quot;m0_COUNT_def&quot;
 Exporting theory &quot;m0_decomp&quot; ... done.
-Theory &quot;m0_decomp&quot; took 0.02400s to build
+Theory &quot;m0_decomp&quot; took 0.02000s to build
 Linking m0_core_decompScript.uo to produce theory-builder executable
 &lt;&lt;HOL message: Created theory &quot;m0_core_decomp&quot;&gt;&gt;
 Saved theorem _____ &quot;datatype_m0_assertion&quot;
@@ -973,7 +973,7 @@ Saved theorem _____ &quot;m0_assertion_induction&quot;
 Saved definition __ &quot;M0_ASSERT_def&quot;
 Saved definition __ &quot;L3_M0_def&quot;
 Exporting theory &quot;m0_core_decomp&quot; ... done.
-Theory &quot;m0_core_decomp&quot; took 0.68800s to build
+Theory &quot;m0_core_decomp&quot; took 0.64400s to build
 Linking m0_decomp_demoScript.uo to produce theory-builder executable
 &lt;&lt;HOL message: Created theory &quot;m0_decomp_demo&quot;&gt;&gt;
 
@@ -1031,7 +1031,7 @@ Starting work on straightlineTheory
 straightlineTheory                                                            OK
 </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="BinaryDecompile" time="3154.662695">
+<testcase classname="wcet_regression" name="BinaryDecompile" time="3149.170901">
 <system-out>
  [MKDIR] arch/object
  [PBF_GEN] arch/object/structures.pbf
@@ -1060,6 +1060,10 @@ straightlineTheory                                                            OK
  [CP] kernel_final.c
  [CC] kernel_final.s
  [AS] kernel.o
+# Clear any .arch directive from the .s file in case we are assembling
+# for a different architecture. This happens when the compiler supports
+# a subset architecture compared to the assembler. For example where the
+# compiler only supports armv7-a, where the assembler supports armv7ve
  [CPP] linker.lds_pp
  [LD] kernel.elf
 /usr/bin/arm-none-eabi-objdump -dz kernel.elf &gt; kernel.elf.txt
@@ -1121,179 +1125,179 @@ PATH=/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/bin:../../
     use -expk, -otknl, or -stdknl to override
 Cleaning out /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
 /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj cleaned
-[1mBuilding directory tools/mlyacc/mlyacclib [22 Jul, 08:58:37]
+[1mBuilding directory tools/mlyacc/mlyacclib [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/portableML/poly [22 Jul, 08:58:37]
+[1mBuilding directory src/portableML/poly [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/portableML [22 Jul, 08:58:37]
+[1mBuilding directory src/portableML [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/prekernel [22 Jul, 08:58:37]
+[1mBuilding directory src/prekernel [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/0 [22 Jul, 08:58:37]
+[1mBuilding directory src/0 [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/postkernel [22 Jul, 08:58:37]
+[1mBuilding directory src/postkernel [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/parse [22 Jul, 08:58:37]
+[1mBuilding directory src/parse [29 Jul, 08:29:41]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/opentheory [22 Jul, 08:58:38]
+[1mBuilding directory src/opentheory [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/bool [22 Jul, 08:58:38]
+[1mBuilding directory src/bool [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/1 [22 Jul, 08:58:38]
+[1mBuilding directory src/1 [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/proofman [22 Jul, 08:58:38]
+[1mBuilding directory src/proofman [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/compute/src [22 Jul, 08:58:38]
+[1mBuilding directory src/compute/src [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat/sat_solvers/minisat [22 Jul, 08:58:38]
+[1mBuilding directory src/HolSat/sat_solvers/minisat [29 Jul, 08:29:42]
 [0mmake[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/minisat&apos;
 Building minisat (release)
 make[1]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/minisat&apos;
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat/sat_solvers/zc2hs [22 Jul, 08:58:38]
+[1mBuilding directory src/HolSat/sat_solvers/zc2hs [29 Jul, 08:29:42]
 [0mmake[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/zc2hs&apos;
 make[1]: Nothing to be done for &apos;all&apos;.
 make[1]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/src/HolSat/sat_solvers/zc2hs&apos;
 Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat [22 Jul, 08:58:38]
+[1mBuilding directory src/HolSat [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/taut [22 Jul, 08:58:38]
+[1mBuilding directory src/taut [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/marker [22 Jul, 08:58:38]
+[1mBuilding directory src/marker [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/q [22 Jul, 08:58:38]
+[1mBuilding directory src/q [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/combin [22 Jul, 08:58:38]
+[1mBuilding directory src/combin [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/lite [22 Jul, 08:58:38]
+[1mBuilding directory src/lite [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/refute [22 Jul, 08:58:38]
+[1mBuilding directory src/refute [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/simp/src [22 Jul, 08:58:38]
+[1mBuilding directory src/simp/src [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/metis [22 Jul, 08:58:38]
+[1mBuilding directory src/metis [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/hh/hh1 [22 Jul, 08:58:38]
+[1mBuilding directory src/holyhammer/hh/hh1 [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/hh [22 Jul, 08:58:39]
+[1mBuilding directory src/holyhammer/hh [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/predict [22 Jul, 08:58:39]
+[1mBuilding directory src/holyhammer/predict [29 Jul, 08:29:42]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer/predict/mepo [22 Jul, 08:58:39]
+[1mBuilding directory src/holyhammer/predict/mepo [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/holyhammer [22 Jul, 08:58:39]
+[1mBuilding directory src/holyhammer [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/meson/src [22 Jul, 08:58:39]
+[1mBuilding directory src/meson/src [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/IndDef [22 Jul, 08:58:39]
+[1mBuilding directory src/IndDef [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/basicProof [22 Jul, 08:58:39]
+[1mBuilding directory src/basicProof [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/relation [22 Jul, 08:58:39]
+[1mBuilding directory src/relation [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/one [22 Jul, 08:58:39]
+[1mBuilding directory src/one [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/pair/src [22 Jul, 08:58:39]
+[1mBuilding directory src/pair/src [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/sum [22 Jul, 08:58:39]
+[1mBuilding directory src/sum [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/tfl/src [22 Jul, 08:58:39]
+[1mBuilding directory src/tfl/src [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/option [22 Jul, 08:58:39]
+[1mBuilding directory src/option [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/theories [22 Jul, 08:58:39]
+[1mBuilding directory src/num/theories [29 Jul, 08:29:43]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/reduce/src [22 Jul, 08:58:40]
+[1mBuilding directory src/num/reduce/src [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/arith/src [22 Jul, 08:58:40]
+[1mBuilding directory src/num/arith/src [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num [22 Jul, 08:58:40]
+[1mBuilding directory src/num [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/termination [22 Jul, 08:58:40]
+[1mBuilding directory src/num/termination [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/num/extra_theories [22 Jul, 08:58:40]
+[1mBuilding directory src/num/extra_theories [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/pred_set/src [22 Jul, 08:58:40]
+[1mBuilding directory src/pred_set/src [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype/equiv [22 Jul, 08:58:40]
+[1mBuilding directory src/datatype/equiv [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype/record [22 Jul, 08:58:41]
+[1mBuilding directory src/datatype/record [29 Jul, 08:29:44]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype [22 Jul, 08:58:41]
+[1mBuilding directory src/datatype [29 Jul, 08:29:45]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/list/src [22 Jul, 08:58:41]
+[1mBuilding directory src/list/src [29 Jul, 08:29:45]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/monad [22 Jul, 08:58:41]
+[1mBuilding directory src/monad [29 Jul, 08:29:45]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/quantHeuristics [22 Jul, 08:58:41]
+[1mBuilding directory src/quantHeuristics [29 Jul, 08:29:45]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/unwind [22 Jul, 08:58:42]
+[1mBuilding directory src/unwind [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSat/vector_def_CNF [22 Jul, 08:58:42]
+[1mBuilding directory src/HolSat/vector_def_CNF [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/boss/ml_evaluation [22 Jul, 08:58:42]
+[1mBuilding directory src/boss/ml_evaluation [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/boss [22 Jul, 08:58:42]
+[1mBuilding directory src/boss [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/TeX [22 Jul, 08:58:42]
+[1mBuilding directory src/TeX [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/sort [22 Jul, 08:58:42]
+[1mBuilding directory src/sort [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/string [22 Jul, 08:58:42]
+[1mBuilding directory src/string [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/res_quan/src [22 Jul, 08:58:42]
+[1mBuilding directory src/res_quan/src [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/quotient/src [22 Jul, 08:58:42]
+[1mBuilding directory src/quotient/src [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/finite_map [22 Jul, 08:58:42]
+[1mBuilding directory src/finite_map [29 Jul, 08:29:46]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/bag [22 Jul, 08:58:43]
+[1mBuilding directory src/bag [29 Jul, 08:29:47]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/n-bit [22 Jul, 08:58:43]
+[1mBuilding directory src/n-bit [29 Jul, 08:29:47]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/ring/src [22 Jul, 08:58:43]
+[1mBuilding directory src/ring/src [29 Jul, 08:29:47]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/integer [22 Jul, 08:58:44]
+[1mBuilding directory src/integer [29 Jul, 08:29:48]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/enumfset [22 Jul, 08:58:44]
+[1mBuilding directory src/enumfset [29 Jul, 08:29:48]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/llist [22 Jul, 08:58:45]
+[1mBuilding directory src/llist [29 Jul, 08:29:49]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/path [22 Jul, 08:58:45]
+[1mBuilding directory src/path [29 Jul, 08:29:49]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/patricia [22 Jul, 08:58:45]
+[1mBuilding directory src/patricia [29 Jul, 08:29:49]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/update [22 Jul, 08:58:45]
+[1mBuilding directory src/update [29 Jul, 08:29:49]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/emit [22 Jul, 08:58:46]
+[1mBuilding directory src/emit [29 Jul, 08:29:49]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/hol88 [22 Jul, 08:58:46]
+[1mBuilding directory src/hol88 [29 Jul, 08:29:50]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/rational [22 Jul, 08:58:46]
+[1mBuilding directory src/rational [29 Jul, 08:29:50]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/datatype/inftree [22 Jul, 08:58:46]
+[1mBuilding directory src/datatype/inftree [29 Jul, 08:29:50]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/search [22 Jul, 08:58:46]
+[1mBuilding directory src/search [29 Jul, 08:29:50]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/real [22 Jul, 08:58:46]
+[1mBuilding directory src/real [29 Jul, 08:29:50]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/complex [22 Jul, 08:58:47]
+[1mBuilding directory src/complex [29 Jul, 08:29:51]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolQbf [22 Jul, 08:58:47]
+[1mBuilding directory src/HolQbf [29 Jul, 08:29:51]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/HolSmt [22 Jul, 08:58:47]
+[1mBuilding directory src/HolSmt [29 Jul, 08:29:51]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/Boolify/src [22 Jul, 08:58:47]
+[1mBuilding directory src/Boolify/src [29 Jul, 08:29:51]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/float [22 Jul, 08:58:48]
+[1mBuilding directory src/float [29 Jul, 08:29:52]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/floating-point [22 Jul, 08:58:48]
+[1mBuilding directory src/floating-point [29 Jul, 08:29:52]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/floating-point/native [22 Jul, 08:58:48]
+[1mBuilding directory src/floating-point/native [29 Jul, 08:29:52]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/probability [22 Jul, 08:58:48]
+[1mBuilding directory src/probability [29 Jul, 08:29:52]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
-[1mBuilding directory src/temporal/src [22 Jul, 08:58:49]
+[1mBuilding directory src/temporal/src [29 Jul, 08:29:53]
 [0m]0;Holmake: .Uploading files to /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/HOL4/sigobj
 
 Number of states = 83
@@ -1344,8 +1348,11 @@ Decompiling /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/graph-re
 Summary
 =======
 
+Stack intro failed in c_handle_syscall for pos 0x0.
 Stack intro failed in fastpath_call for pos 0x0.
 Stack intro failed in fastpath_reply_recv for pos 0x0.
+Graph spec failed in c_handle_syscall for pos 0xe0010730.
+Graph spec failed in c_handle_syscall for pos 0xe0010730.
 Graph spec failed in fastpath_call for pos 0xe00102d0.
 Graph spec failed in fastpath_call for pos 0xe00102d0.
 Graph spec failed in fastpath_reply_recv for pos 0xe00105b8.
@@ -1358,7 +1365,7 @@ mv kernel_mc_graph.txt ASMFunctions.txt
 rm src/arch/arm/32/idle.s_pp src/arch/arm/32/hyp_traps.s_pp src/arch/arm/32/traps.s_pp src/arch/arm/armv/armv7-a/machine_asm.s_pp src/arch/arm/32/halt.s_pp plat/machine/hardware_gen.h arch/api/shared_types_gen.h src/arch/arm/32/head.s_pp api/types_gen.h arch/object/structures_gen.h
 </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="ExportCSemantics" time="2368.224881">
+<testcase classname="wcet_regression" name="ExportCSemantics" time="282.877802">
 <system-out>
 MAKEFILES= make -C ../../l4v/spec c-kernel
 make[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec&apos;
@@ -1377,7 +1384,7 @@ make[2]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/T
  [BF_GEN] api/types_gen.h
  [CPP] kernel_all.c_pp
 python mk_umm_types.py --root /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v kernel_all.c_pp ../../umm_types.txt
-Started at Friday 22 July  09:50:36 AEST 2016 (polyml-5.6_x86_64-linux on lemma)
+Started at Friday 29 July  09:21:34 AEST 2016 (polyml-5.6_x86_64-linux on lemma)
 ISABELLE_BUILD_OPTIONS=&quot;&quot;
 
 ISABELLE_BUILD_JAVA_OPTIONS=&quot;-Djava.awt.headless=true -Xms512m -Xmx2560m -Xss4m&quot;
@@ -1396,10 +1403,10 @@ Session Unsorted/UmmTypes
 Cleaning UmmTypes ...
 Building UmmTypes ...
 UmmTypes: theory UmmTypesFile
-Timing UmmTypes (4 threads, 2.259s elapsed time, 3.272s cpu time, 0.064s GC time, factor 1.45)
-Finished UmmTypes (0:00:19 elapsed time, 0:00:34 cpu time, factor 1.78)
-Finished at Friday 22 July  09:50:59 AEST 2016
-0:00:23 elapsed time, 0:00:53 cpu time, factor 2.30
+Timing UmmTypes (4 threads, 2.389s elapsed time, 3.432s cpu time, 0.072s GC time, factor 1.44)
+Finished UmmTypes (0:00:20 elapsed time, 0:00:35 cpu time, factor 1.75)
+Finished at Friday 29 July  09:21:57 AEST 2016
+0:00:23 elapsed time, 0:00:55 cpu time, factor 2.39
 
 Generating umm_types data file...
 
@@ -1427,7 +1434,7 @@ make[3]: Nothing to be done for &apos;cspec&apos;.
 make[3]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec/cspec/c&apos;
 make[2]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec&apos;
 /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/isabelle/bin/isabelle build -v -c -d /home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v&quot;&quot; SimplExportOnly
-Started at Friday 22 July  09:51:02 AEST 2016 (polyml-5.6_x86_64-linux on lemma)
+Started at Friday 29 July  09:22:01 AEST 2016 (polyml-5.6_x86_64-linux on lemma)
 ISABELLE_BUILD_OPTIONS=&quot;&quot;
 
 ISABELLE_BUILD_JAVA_OPTIONS=&quot;-Djava.awt.headless=true -Xms512m -Xmx2560m -Xss4m&quot;
@@ -1446,65 +1453,21 @@ Session Specifications/CKernel
 Session Specifications/CSpec
 Session Proofs/SimplExportOnly
 Cleaning SimplExportOnly ...
-Building CKernel ...
-CKernel: theory Eisbach
-CKernel: theory Insulin
-CKernel: theory Apply_Trace
-CKernel: theory Defs
-CKernel: theory Apply_Trace_Cmd
-CKernel: theory AutoLevity_Base
-CKernel: theory Extend_Locale
-CKernel: theory Qualify
-CKernel: theory AutoLevity_Hooks
-CKernel: theory Requalify
-CKernel: theory ShowTypes
-CKernel: theory Subgoal_Methods
-CKernel: theory Eisbach_Tools
-CKernel: theory CTranslationNICTA
-CKernel: theory Rule_By_Method
-CKernel: theory Eisbach_Methods
-CKernel: theory Setup_Locale
-CKernel: theory NICTATools
-CKernel: theory Lib
-CKernel: theory NonDetMonad
-CKernel: theory GlobalsSwap
-CKernel: theory Platform
-CKernel: theory MachineTypes
-CKernel: theory CommonOps
-CKernel: theory Kernel_C
-Skipping theories &quot;cspec/Kernel_C&quot; (undefined SORRY_MODIFIES_PROOFS)
-Timing CKernel (4 threads, 1196.525s elapsed time, 2579.688s cpu time, 195.928s GC time, factor 2.16)
-Finished CKernel (0:24:30 elapsed time, 0:53:14 cpu time, factor 2.17)
-Building CSpec ...
-CSpec: theory Substitute
-CSpec: theory TypHeapLib
-CSpec: theory BitFieldProofsLib
-CSpec: theory KernelState_C
-CSpec: theory shared_types_defs
-CSpec: theory structures_defs
-CSpec: theory types_defs
-CSpec: theory types_proofs
-CSpec: theory shared_types_proofs
-CSpec: theory structures_proofs
-CSpec: theory KernelInc_C
-Skipping theories &quot;cspec/KernelInc_C&quot; (undefined SORRY_BITFIELD_PROOFS)
-Timing CSpec (4 threads, 542.444s elapsed time, 1590.436s cpu time, 103.068s GC time, factor 2.93)
-Finished CSpec (0:10:12 elapsed time, 0:28:48 cpu time, factor 2.82)
 Running SimplExportOnly ...
 SimplExportOnly: theory SplitRule
 SimplExportOnly: theory CommonOpsLemmas
 SimplExportOnly: theory GraphLang
 SimplExportOnly: theory SimplExport
 SimplExportOnly: theory SEL4SimplExport
-Timing SimplExportOnly (4 threads, 239.039s elapsed time, 249.948s cpu time, 6.848s GC time, factor 1.05)
-Finished SimplExportOnly (0:04:13 elapsed time, 0:04:25 cpu time, factor 1.04)
-Finished at Friday 22 July  10:30:01 AEST 2016
-0:38:59 elapsed time, 1:26:53 cpu time, factor 2.22
+Timing SimplExportOnly (4 threads, 235.490s elapsed time, 246.172s cpu time, 6.528s GC time, factor 1.05)
+Finished SimplExportOnly (0:04:10 elapsed time, 0:04:21 cpu time, factor 1.04)
+Finished at Friday 29 July  09:26:14 AEST 2016
+0:04:13 elapsed time, 0:04:43 cpu time, factor 1.11
 make[1]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/proof&apos;
 cp ../../l4v/proof/asmrefine/CFunDump.txt CFunctions.txt
 </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="BinaryProblem" time="318.413157">
+<testcase classname="wcet_regression" name="BinaryProblem" time="308.908178">
 <system-out>
 /usr/bin/arm-none-eabi-objdump -z -D -j .rodata kernel.elf &gt; kernel.elf.rodata
 /usr/bin/arm-none-eabi-objdump -t kernel.elf &gt; kernel.elf.symtab
@@ -1512,10 +1475,7 @@ MAKEFILES= make -C ../../l4v/spec c-kernel
 make[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec&apos;
 cd cspec/c &amp;&amp; L4V_REPO_PATH=/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v make cspec
 make[2]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec/cspec/c&apos;
- [BF_PROOFS] arch/object/structures_proofs.thy
- [BF_PROOFS] arch/api/shared_types_proofs.thy
- [BF_PROOFS] plat/machine/hardware_proofs.thy
- [BF_PROOFS] api/types_proofs.thy
+make[2]: Nothing to be done for &apos;cspec&apos;.
 make[2]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec/cspec/c&apos;
 make[1]: Leaving directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec&apos;
 python ../graph-refine.py .
@@ -1902,6 +1862,7 @@ Function Kernel_C.lookupSlotForCNodeOp
 Function Kernel_C.mdb_node_get_mdbNext
 Function Kernel_C.mdb_node_get_mdbPrev
 Function Kernel_C.mdb_node_set_mdbPrev
+Function Kernel_C.restore_user_context
 Function Kernel_C.seL4_MessageInfo_new
 Function Kernel_C.setMRs_syscall_error
 Function Kernel_C.vmAttributesFromWord
@@ -2174,7 +2135,7 @@ Function Kernel_C.lookup_fault_missing_capability_get_bitsLeft
 Function Kernel_C.cap_page_directory_cap_ptr_set_capPDMappedASID
 Function Kernel_C.mdb_node_ptr_mset_mdbNext_mdbRevocable_mdbFirstBadged
 Function slowpath
-Warning: dead arc in slowpath: 17 -&gt; 3758163516
+Warning: dead arc in slowpath: 17 -&gt; 3758212808
   (follows Basic node!)
 Function char_to_long
 Function strncmp
@@ -2290,7 +2251,7 @@ Function ensureNoChildren
 Function isMDBParentOf
 Function hasRecycleRights
 Function completeSignal
-Warning: dead arc in completeSignal: 23 -&gt; 3758176576
+Warning: dead arc in completeSignal: 23 -&gt; 3758176512
   (follows call to halt)
 Function emptySlot
 Function deletedIRQHandler
@@ -2326,7 +2287,7 @@ Function lookupIPCBuffer
 Function APFromVMRights
 Function invalidateASIDEntry
 Function lockTLBEntry
-Warning: dead arc in lockTLBEntry: 3758163900 -&gt; 3758163904
+Warning: dead arc in lockTLBEntry: 3758163836 -&gt; 3758163840
   (follows Basic node!)
 Function map_kernel_devices
 Function configureIdleThread
@@ -2350,7 +2311,7 @@ Function decodeDomainInvocation
 Function handleFault
 Function sendFaultIPC
 Function handleReply
-Warning: dead arc in handleReply: 33 -&gt; 3758189732
+Warning: dead arc in handleReply: 33 -&gt; 3758189668
   (follows call to halt)
 Function setupCallerCap
 Function invokeIRQHandler_SetIRQHandler
@@ -2361,7 +2322,7 @@ Function switchToThread
 Function timerTick
 Function possibleSwitchTo
 Function activateThread
-Warning: dead arc in activateThread: 31 -&gt; 3758182656
+Warning: dead arc in activateThread: 31 -&gt; 3758182592
   (follows call to halt)
 Function maskCapRights
 Function sameObjectAs
@@ -2426,9 +2387,11 @@ Function cancelIPC
 Function decodeIRQControlInvocation
 Function Arch_finaliseCap
 Function c_handle_syscall
-Warning: dead arc in c_handle_syscall: 49 -&gt; 3758163840
+Warning: dead arc in c_handle_syscall: 27 -&gt; 3758163760
+  (follows call to instruction&apos;ldmdb_sp_r0_r1_r2_r3_r4_r5_r6_r7_r8_r9_sl_fp_ip_sp_lr)
+Warning: dead arc in c_handle_syscall: 31 -&gt; 3758163776
   (follows Basic node!)
-Warning: dead arc in c_handle_syscall: 51 -&gt; 3758163840
+Warning: dead arc in c_handle_syscall: 33 -&gt; 3758163776
   (follows Basic node!)
 Function create_ipcbuf_frame
 Function handleRecv
@@ -2448,7 +2411,7 @@ Function handleInvocation
 Function decodeTCBConfigure
 Function receiveIPC
 Function doFlush
-Warning: dead arc in doFlush: 107 -&gt; 3758171704
+Warning: dead arc in doFlush: 107 -&gt; 3758171640
   (follows call to halt)
 Function finaliseCap
 Function Arch_recycleCap
@@ -2459,271 +2422,271 @@ Function decodeCNodeInvocation
 Function decodeARMMMUInvocation
 Function init_kernel
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_7
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_7: 17 -&gt; 3758171476
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_7: 17 -&gt; 3758171412
   (follows Basic node!)
 Function instruction&apos;isb_sy
-Warning: dead arc in instruction&apos;isb_sy: 17 -&gt; 3758171432
+Warning: dead arc in instruction&apos;isb_sy: 17 -&gt; 3758171368
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_1: 17 -&gt; 3758171428
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_1: 17 -&gt; 3758171364
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr11_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1: 17 -&gt; 3758170688
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1: 17 -&gt; 3758170624
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_ip_cr7_cr10_1
-Warning: dead arc in instruction&apos;mcr_15_0_ip_cr7_cr10_1: 17 -&gt; 3758170544
+Warning: dead arc in instruction&apos;mcr_15_0_ip_cr7_cr10_1: 17 -&gt; 3758170480
   (follows Basic node!)
 Function instruction&apos;dsb_sy
-Warning: dead arc in instruction&apos;dsb_sy: 17 -&gt; 3758170564
+Warning: dead arc in instruction&apos;dsb_sy: 17 -&gt; 3758170500
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr14_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr14_1: 17 -&gt; 3758170488
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr14_1: 17 -&gt; 3758170424
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r4_cr7_cr10_1
-Warning: dead arc in instruction&apos;mcr_15_0_r4_cr7_cr10_1: 17 -&gt; 3758170348
+Warning: dead arc in instruction&apos;mcr_15_0_r4_cr7_cr10_1: 17 -&gt; 3758170284
   (follows Basic node!)
 Function instruction&apos;dsb_sy_1
-Warning: dead arc in instruction&apos;dsb_sy_1: 17 -&gt; 3758170492
+Warning: dead arc in instruction&apos;dsb_sy_1: 17 -&gt; 3758170428
   (follows Basic node!)
 Function instruction&apos;dsb_sy_0
-Warning: dead arc in instruction&apos;dsb_sy_0: 17 -&gt; 3758170368
+Warning: dead arc in instruction&apos;dsb_sy_0: 17 -&gt; 3758170304
   (follows Basic node!)
 Function instruction&apos;dsb_sy_2
-Warning: dead arc in instruction&apos;dsb_sy_2: 17 -&gt; 3758170508
+Warning: dead arc in instruction&apos;dsb_sy_2: 17 -&gt; 3758170444
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr14_cr1_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170308
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170244
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr14_cr1_0
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170304
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170240
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr0_cr1_1
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_1: 17 -&gt; 3758170292
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_1: 17 -&gt; 3758170228
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr0_cr1_2
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_2: 17 -&gt; 3758170288
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_2: 17 -&gt; 3758170224
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r2_cr7_cr14_2
-Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr14_2: 17 -&gt; 3758170220
+Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr14_2: 17 -&gt; 3758170156
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r5_cr0_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0: 17 -&gt; 3758170168
+Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0: 17 -&gt; 3758170104
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r2_cr0_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170176
+Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170112
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_sl_cr0_cr0_1
-Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1: 17 -&gt; 3758170108
+Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1: 17 -&gt; 3758170044
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_r3_cr0_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0: 17 -&gt; 3758170172
+Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0: 17 -&gt; 3758170108
   (follows Basic node!)
 Function instruction&apos;mrc_15_2_r2_cr0_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170160
+Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170096
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r2_cr7_cr10_2
-Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr10_2: 17 -&gt; 3758170036
+Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr10_2: 17 -&gt; 3758169972
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r5_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0_0: 17 -&gt; 3758169984
+Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0_0: 17 -&gt; 3758169920
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r2_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169992
+Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169928
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_sl_cr0_cr0_1_0
-Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1_0: 17 -&gt; 3758169924
+Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1_0: 17 -&gt; 3758169860
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_r3_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0_0: 17 -&gt; 3758169988
+Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0_0: 17 -&gt; 3758169924
   (follows Basic node!)
 Function instruction&apos;mrc_15_2_r2_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169976
+Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169912
   (follows Basic node!)
 Function instruction&apos;isb_sy_0
-Warning: dead arc in instruction&apos;isb_sy_0: 17 -&gt; 3758166632
+Warning: dead arc in instruction&apos;isb_sy_0: 17 -&gt; 3758166568
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_ip_cr8_cr7_2
-Warning: dead arc in instruction&apos;mcr_15_0_ip_cr8_cr7_2: 17 -&gt; 3758166624
+Warning: dead arc in instruction&apos;mcr_15_0_ip_cr8_cr7_2: 17 -&gt; 3758166560
   (follows Basic node!)
 Function instruction&apos;dsb_sy_3
-Warning: dead arc in instruction&apos;dsb_sy_3: 17 -&gt; 3758166620
+Warning: dead arc in instruction&apos;dsb_sy_3: 17 -&gt; 3758166556
   (follows Basic node!)
 Function instruction&apos;dsb_sy_4
-Warning: dead arc in instruction&apos;dsb_sy_4: 17 -&gt; 3758166628
+Warning: dead arc in instruction&apos;dsb_sy_4: 17 -&gt; 3758166564
   (follows Basic node!)
 Function instruction&apos;isb_sy_3
-Warning: dead arc in instruction&apos;isb_sy_3: 17 -&gt; 3758164020
+Warning: dead arc in instruction&apos;isb_sy_3: 17 -&gt; 3758163956
   (follows Basic node!)
 Function instruction&apos;isb_sy_1
-Warning: dead arc in instruction&apos;isb_sy_1: 17 -&gt; 3758163988
+Warning: dead arc in instruction&apos;isb_sy_1: 17 -&gt; 3758163924
   (follows Basic node!)
 Function instruction&apos;isb_sy_2
-Warning: dead arc in instruction&apos;isb_sy_2: 17 -&gt; 3758163996
+Warning: dead arc in instruction&apos;isb_sy_2: 17 -&gt; 3758163932
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0: 17 -&gt; 3758163984
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0: 17 -&gt; 3758163920
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r1_cr13_cr0_1
-Warning: dead arc in instruction&apos;mcr_15_0_r1_cr13_cr0_1: 17 -&gt; 3758163992
+Warning: dead arc in instruction&apos;mcr_15_0_r1_cr13_cr0_1: 17 -&gt; 3758163928
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr2_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0: 17 -&gt; 3758164016
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0: 17 -&gt; 3758163952
   (follows Basic node!)
 Function instruction&apos;dsb_sy_5
-Warning: dead arc in instruction&apos;dsb_sy_5: 17 -&gt; 3758163964
+Warning: dead arc in instruction&apos;dsb_sy_5: 17 -&gt; 3758163900
   (follows Basic node!)
 Function instruction&apos;wfi
-Warning: dead arc in instruction&apos;wfi: 17 -&gt; 3758163956
+Warning: dead arc in instruction&apos;wfi: 17 -&gt; 3758163892
   (follows Basic node!)
 Function instruction&apos;cpsid_aif
-Warning: dead arc in instruction&apos;cpsid_aif: 17 -&gt; 3758163940
+Warning: dead arc in instruction&apos;cpsid_aif: 17 -&gt; 3758163876
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr7_cr0_4
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr0_4: 17 -&gt; 3758163944
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr0_4: 17 -&gt; 3758163880
   (follows Basic node!)
 Function instruction&apos;isb_sy_4
-Warning: dead arc in instruction&apos;isb_sy_4: 17 -&gt; 3758172320
+Warning: dead arc in instruction&apos;isb_sy_4: 17 -&gt; 3758172256
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0: 17 -&gt; 3758172316
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0: 17 -&gt; 3758172252
   (follows Basic node!)
 Function instruction&apos;dsb_sy_7
-Warning: dead arc in instruction&apos;dsb_sy_7: 17 -&gt; 3758172308
+Warning: dead arc in instruction&apos;dsb_sy_7: 17 -&gt; 3758172244
   (follows Basic node!)
 Function instruction&apos;dsb_sy_8
-Warning: dead arc in instruction&apos;dsb_sy_8: 17 -&gt; 3758172324
+Warning: dead arc in instruction&apos;dsb_sy_8: 17 -&gt; 3758172260
   (follows Basic node!)
 Function instruction&apos;dsb_sy_6
-Warning: dead arc in instruction&apos;dsb_sy_6: 17 -&gt; 3758172300
+Warning: dead arc in instruction&apos;dsb_sy_6: 17 -&gt; 3758172236
   (follows Basic node!)
 Function instruction&apos;isb_sy_5
-Warning: dead arc in instruction&apos;isb_sy_5: 17 -&gt; 3758171728
+Warning: dead arc in instruction&apos;isb_sy_5: 17 -&gt; 3758171664
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0_0: 17 -&gt; 3758171724
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0_0: 17 -&gt; 3758171660
   (follows Basic node!)
 Function instruction&apos;dsb_sy_11
-Warning: dead arc in instruction&apos;dsb_sy_11: 17 -&gt; 3758171732
+Warning: dead arc in instruction&apos;dsb_sy_11: 17 -&gt; 3758171668
   (follows Basic node!)
 Function instruction&apos;dsb_sy_10
-Warning: dead arc in instruction&apos;dsb_sy_10: 17 -&gt; 3758171716
+Warning: dead arc in instruction&apos;dsb_sy_10: 17 -&gt; 3758171652
   (follows Basic node!)
 Function instruction&apos;dsb_sy_9
-Warning: dead arc in instruction&apos;dsb_sy_9: 17 -&gt; 3758171708
+Warning: dead arc in instruction&apos;dsb_sy_9: 17 -&gt; 3758171644
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr6_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr6_1: 17 -&gt; 3758171376
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr6_1: 17 -&gt; 3758171312
   (follows Basic node!)
 Function instruction&apos;dsb_sy_12
-Warning: dead arc in instruction&apos;dsb_sy_12: 17 -&gt; 3758171396
+Warning: dead arc in instruction&apos;dsb_sy_12: 17 -&gt; 3758171332
   (follows Basic node!)
 Function instruction&apos;isb_sy_6
-Warning: dead arc in instruction&apos;isb_sy_6: 17 -&gt; 3758167676
+Warning: dead arc in instruction&apos;isb_sy_6: 17 -&gt; 3758167612
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr8_cr7_2
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2: 17 -&gt; 3758167668
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2: 17 -&gt; 3758167604
   (follows Basic node!)
 Function instruction&apos;dsb_sy_13
-Warning: dead arc in instruction&apos;dsb_sy_13: 17 -&gt; 3758167660
+Warning: dead arc in instruction&apos;dsb_sy_13: 17 -&gt; 3758167596
   (follows Basic node!)
 Function instruction&apos;dsb_sy_14
-Warning: dead arc in instruction&apos;dsb_sy_14: 17 -&gt; 3758167672
+Warning: dead arc in instruction&apos;dsb_sy_14: 17 -&gt; 3758167608
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr5_cr0_1
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_1: 17 -&gt; 3758167344
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_1: 17 -&gt; 3758167280
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr5_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_0: 17 -&gt; 3758167308
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_0: 17 -&gt; 3758167244
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r1_cr6_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_0_r1_cr6_cr0_0: 17 -&gt; 3758167304
+Warning: dead arc in instruction&apos;mrc_15_0_r1_cr6_cr0_0: 17 -&gt; 3758167240
   (follows Basic node!)
 Function instruction&apos;isb_sy_7
-Warning: dead arc in instruction&apos;isb_sy_7: 17 -&gt; 3758167168
+Warning: dead arc in instruction&apos;isb_sy_7: 17 -&gt; 3758167104
   (follows Basic node!)
 Function instruction&apos;isb_sy_9
-Warning: dead arc in instruction&apos;isb_sy_9: 17 -&gt; 3758167200
+Warning: dead arc in instruction&apos;isb_sy_9: 17 -&gt; 3758167136
   (follows Basic node!)
 Function instruction&apos;isb_sy_8
-Warning: dead arc in instruction&apos;isb_sy_8: 17 -&gt; 3758167176
+Warning: dead arc in instruction&apos;isb_sy_8: 17 -&gt; 3758167112
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_0: 17 -&gt; 3758167164
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_0: 17 -&gt; 3758167100
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr13_cr0_1
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1: 17 -&gt; 3758167172
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1: 17 -&gt; 3758167108
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr2_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0_0: 17 -&gt; 3758167196
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0_0: 17 -&gt; 3758167132
   (follows Basic node!)
 Function instruction&apos;dsb_sy_15
-Warning: dead arc in instruction&apos;dsb_sy_15: 17 -&gt; 3758167144
+Warning: dead arc in instruction&apos;dsb_sy_15: 17 -&gt; 3758167080
   (follows Basic node!)
 Function instruction&apos;strex_r0_r1_r3
-Warning: dead arc in instruction&apos;strex_r0_r1_r3: 17 -&gt; 3758167040
+Warning: dead arc in instruction&apos;strex_r0_r1_r3: 17 -&gt; 3758166976
   (follows Basic node!)
-Function instruction&apos;ldr_r3_pc_88_e00107e0_lockTLBEntryCritical_0x20
-Warning: dead arc in instruction&apos;ldr_r3_pc_88_e00107e0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163840
+Function instruction&apos;ldr_r3_pc_88_e00107a0_lockTLBEntryCritical_0x20
+Warning: dead arc in instruction&apos;ldr_r3_pc_88_e00107a0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163776
   (follows Basic node!)
-Function instruction&apos;ldr_r2_pc_56_e00107e0_lockTLBEntryCritical_0x20
-Warning: dead arc in instruction&apos;ldr_r2_pc_56_e00107e0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163872
+Function instruction&apos;ldr_r2_pc_56_e00107a0_lockTLBEntryCritical_0x20
+Warning: dead arc in instruction&apos;ldr_r2_pc_56_e00107a0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163808
   (follows Basic node!)
 Function lockTLBEntryCritical
-Warning: dead arc in lockTLBEntryCritical: 17 -&gt; 3758163904
+Warning: dead arc in lockTLBEntryCritical: 17 -&gt; 3758163840
   (follows Basic node!)
 Function instruction&apos;isb_sy_10
-Warning: dead arc in instruction&apos;isb_sy_10: 17 -&gt; 3758171780
+Warning: dead arc in instruction&apos;isb_sy_10: 17 -&gt; 3758171716
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r4_cr8_cr7_2
-Warning: dead arc in instruction&apos;mcr_15_0_r4_cr8_cr7_2: 17 -&gt; 3758171772
+Warning: dead arc in instruction&apos;mcr_15_0_r4_cr8_cr7_2: 17 -&gt; 3758171708
   (follows Basic node!)
 Function instruction&apos;dsb_sy_17
-Warning: dead arc in instruction&apos;dsb_sy_17: 17 -&gt; 3758171776
+Warning: dead arc in instruction&apos;dsb_sy_17: 17 -&gt; 3758171712
   (follows Basic node!)
 Function instruction&apos;dsb_sy_16
-Warning: dead arc in instruction&apos;dsb_sy_16: 17 -&gt; 3758171764
+Warning: dead arc in instruction&apos;dsb_sy_16: 17 -&gt; 3758171700
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r2_cr7_cr11_1
-Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr11_1: 17 -&gt; 3758167616
+Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr11_1: 17 -&gt; 3758167552
   (follows Basic node!)
 Function instruction&apos;isb_sy_13
-Warning: dead arc in instruction&apos;isb_sy_13: 17 -&gt; 3758166964
+Warning: dead arc in instruction&apos;isb_sy_13: 17 -&gt; 3758166900
   (follows Basic node!)
 Function instruction&apos;isb_sy_11
-Warning: dead arc in instruction&apos;isb_sy_11: 17 -&gt; 3758166836
+Warning: dead arc in instruction&apos;isb_sy_11: 17 -&gt; 3758166772
   (follows Basic node!)
 Function instruction&apos;isb_sy_15
-Warning: dead arc in instruction&apos;isb_sy_15: 17 -&gt; 3758166988
+Warning: dead arc in instruction&apos;isb_sy_15: 17 -&gt; 3758166924
   (follows Basic node!)
 Function instruction&apos;isb_sy_14
-Warning: dead arc in instruction&apos;isb_sy_14: 17 -&gt; 3758166972
+Warning: dead arc in instruction&apos;isb_sy_14: 17 -&gt; 3758166908
   (follows Basic node!)
 Function instruction&apos;isb_sy_12
-Warning: dead arc in instruction&apos;isb_sy_12: 17 -&gt; 3758166924
+Warning: dead arc in instruction&apos;isb_sy_12: 17 -&gt; 3758166860
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_3
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_3: 17 -&gt; 3758166960
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_3: 17 -&gt; 3758166896
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_1: 17 -&gt; 3758166832
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_1: 17 -&gt; 3758166768
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_4
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_4: 17 -&gt; 3758166984
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_4: 17 -&gt; 3758166920
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_2
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_2: 17 -&gt; 3758166920
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_2: 17 -&gt; 3758166856
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr13_cr0_1_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1_0: 17 -&gt; 3758166968
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1_0: 17 -&gt; 3758166904
   (follows Basic node!)
 Function instruction&apos;dsb_sy_19
-Warning: dead arc in instruction&apos;dsb_sy_19: 17 -&gt; 3758166900
+Warning: dead arc in instruction&apos;dsb_sy_19: 17 -&gt; 3758166836
   (follows Basic node!)
 Function instruction&apos;dsb_sy_18
-Warning: dead arc in instruction&apos;dsb_sy_18: 17 -&gt; 3758166812
+Warning: dead arc in instruction&apos;dsb_sy_18: 17 -&gt; 3758166748
   (follows Basic node!)
 Function instruction&apos;dsb_sy_20
-Warning: dead arc in instruction&apos;dsb_sy_20: 17 -&gt; 3758166940
+Warning: dead arc in instruction&apos;dsb_sy_20: 17 -&gt; 3758166876
   (follows Basic node!)
 Function instruction&apos;strex_r3_r2_r2
 Warning: dead arc in instruction&apos;strex_r3_r2_r2: 17 -&gt; 3758163360
@@ -2759,43 +2722,46 @@ Function instruction&apos;dsb_sy_22
 Warning: dead arc in instruction&apos;dsb_sy_22: 17 -&gt; 3758098756
   (follows Basic node!)
 Function instruction&apos;isb_sy_18
-Warning: dead arc in instruction&apos;isb_sy_18: 17 -&gt; 3758167540
+Warning: dead arc in instruction&apos;isb_sy_18: 17 -&gt; 3758167476
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr8_cr7_2_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2_0: 17 -&gt; 3758167532
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2_0: 17 -&gt; 3758167468
   (follows Basic node!)
 Function instruction&apos;dsb_sy_25
-Warning: dead arc in instruction&apos;dsb_sy_25: 17 -&gt; 3758167536
+Warning: dead arc in instruction&apos;dsb_sy_25: 17 -&gt; 3758167472
   (follows Basic node!)
 Function instruction&apos;dsb_sy_24
-Warning: dead arc in instruction&apos;dsb_sy_24: 17 -&gt; 3758167524
+Warning: dead arc in instruction&apos;dsb_sy_24: 17 -&gt; 3758167460
   (follows Basic node!)
 Function instruction&apos;isb_sy_19
-Warning: dead arc in instruction&apos;isb_sy_19: 17 -&gt; 3758167460
+Warning: dead arc in instruction&apos;isb_sy_19: 17 -&gt; 3758167396
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr8_cr7_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr8_cr7_1: 17 -&gt; 3758167452
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr8_cr7_1: 17 -&gt; 3758167388
   (follows Basic node!)
 Function instruction&apos;dsb_sy_27
-Warning: dead arc in instruction&apos;dsb_sy_27: 17 -&gt; 3758167456
+Warning: dead arc in instruction&apos;dsb_sy_27: 17 -&gt; 3758167392
   (follows Basic node!)
 Function instruction&apos;dsb_sy_26
-Warning: dead arc in instruction&apos;dsb_sy_26: 17 -&gt; 3758167436
+Warning: dead arc in instruction&apos;dsb_sy_26: 17 -&gt; 3758167372
+  (follows Basic node!)
+Function instruction&apos;ldmdb_sp_r0_r1_r2_r3_r4_r5_r6_r7_r8_r9_sl_fp_ip_sp_lr
+Warning: dead arc in instruction&apos;ldmdb_sp_r0_r1_r2_r3_r4_r5_r6_r7_r8_r9_sl_fp_ip_sp_lr: 17 -&gt; 3758163756
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr11_1_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_0: 17 -&gt; 3758170844
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_0: 17 -&gt; 3758170780
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr7_cr11_1
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr11_1: 17 -&gt; 3758171000
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr11_1: 17 -&gt; 3758170936
   (follows Basic node!)
 Function instruction&apos;isb_sy_20
-Warning: dead arc in instruction&apos;isb_sy_20: 17 -&gt; 3758171692
+Warning: dead arc in instruction&apos;isb_sy_20: 17 -&gt; 3758171628
   (follows Basic node!)
 Function instruction&apos;dsb_sy_28
-Warning: dead arc in instruction&apos;dsb_sy_28: 17 -&gt; 3758171656
+Warning: dead arc in instruction&apos;dsb_sy_28: 17 -&gt; 3758171592
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr11_1_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_1: 17 -&gt; 3758201088
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_1: 17 -&gt; 3758201024
   (follows Basic node!)
 Function instruction&apos;isb_sy_21
 Warning: dead arc in instruction&apos;isb_sy_21: 17 -&gt; 3758116008
@@ -3019,8 +2985,8 @@ Doing stack analysis for &quot;instruction&apos;isb_sy_6&quot;. (204 of 375)
 Doing stack analysis for &quot;instruction&apos;isb_sy_7&quot;. (205 of 375)
 Doing stack analysis for &quot;instruction&apos;isb_sy_8&quot;. (206 of 375)
 Doing stack analysis for &quot;instruction&apos;isb_sy_9&quot;. (207 of 375)
-Doing stack analysis for &quot;instruction&apos;ldr_r2_pc_56_e00107e0_lockTLBEntryCritical_0x20&quot;. (208 of 375)
-Doing stack analysis for &quot;instruction&apos;ldr_r3_pc_88_e00107e0_lockTLBEntryCritical_0x20&quot;. (209 of 375)
+Doing stack analysis for &quot;instruction&apos;ldr_r2_pc_56_e00107a0_lockTLBEntryCritical_0x20&quot;. (208 of 375)
+Doing stack analysis for &quot;instruction&apos;ldr_r3_pc_88_e00107a0_lockTLBEntryCritical_0x20&quot;. (209 of 375)
 Doing stack analysis for &quot;instruction&apos;mcr_15_0_ip_cr7_cr10_1&quot;. (210 of 375)
 Doing stack analysis for &quot;instruction&apos;mcr_15_0_ip_cr8_cr7_2&quot;. (211 of 375)
 Doing stack analysis for &quot;instruction&apos;mcr_15_0_r0_cr13_cr0_1&quot;. (212 of 375)
@@ -3195,7 +3161,7 @@ Warning: dead arc in create_untypeds_for_region: 3758103140 -&gt; 3758103144
   (follows Basic node!)
 </system-out>
 </testcase>
-<testcase classname="wcet_regression" name="BinaryProofDemo" time="118.179543">
+<testcase classname="wcet_regression" name="BinaryProofDemo" time="111.181111">
 <system-out>
 MAKEFILES= make -C ../../l4v/spec c-kernel
 make[1]: Entering directory &apos;/home/bamboo/remote-agent/xml-data/build-dir/TES-WCETM-JOB1/l4v/spec&apos;
@@ -3588,6 +3554,7 @@ Function Kernel_C.lookupSlotForCNodeOp
 Function Kernel_C.mdb_node_get_mdbNext
 Function Kernel_C.mdb_node_get_mdbPrev
 Function Kernel_C.mdb_node_set_mdbPrev
+Function Kernel_C.restore_user_context
 Function Kernel_C.seL4_MessageInfo_new
 Function Kernel_C.setMRs_syscall_error
 Function Kernel_C.vmAttributesFromWord
@@ -3860,7 +3827,7 @@ Function Kernel_C.lookup_fault_missing_capability_get_bitsLeft
 Function Kernel_C.cap_page_directory_cap_ptr_set_capPDMappedASID
 Function Kernel_C.mdb_node_ptr_mset_mdbNext_mdbRevocable_mdbFirstBadged
 Function slowpath
-Warning: dead arc in slowpath: 17 -&gt; 3758163516
+Warning: dead arc in slowpath: 17 -&gt; 3758212808
   (follows Basic node!)
 Function char_to_long
 Function strncmp
@@ -3976,7 +3943,7 @@ Function ensureNoChildren
 Function isMDBParentOf
 Function hasRecycleRights
 Function completeSignal
-Warning: dead arc in completeSignal: 23 -&gt; 3758176576
+Warning: dead arc in completeSignal: 23 -&gt; 3758176512
   (follows call to halt)
 Function emptySlot
 Function deletedIRQHandler
@@ -4012,7 +3979,7 @@ Function lookupIPCBuffer
 Function APFromVMRights
 Function invalidateASIDEntry
 Function lockTLBEntry
-Warning: dead arc in lockTLBEntry: 3758163900 -&gt; 3758163904
+Warning: dead arc in lockTLBEntry: 3758163836 -&gt; 3758163840
   (follows Basic node!)
 Function map_kernel_devices
 Function configureIdleThread
@@ -4036,7 +4003,7 @@ Function decodeDomainInvocation
 Function handleFault
 Function sendFaultIPC
 Function handleReply
-Warning: dead arc in handleReply: 33 -&gt; 3758189732
+Warning: dead arc in handleReply: 33 -&gt; 3758189668
   (follows call to halt)
 Function setupCallerCap
 Function invokeIRQHandler_SetIRQHandler
@@ -4047,7 +4014,7 @@ Function switchToThread
 Function timerTick
 Function possibleSwitchTo
 Function activateThread
-Warning: dead arc in activateThread: 31 -&gt; 3758182656
+Warning: dead arc in activateThread: 31 -&gt; 3758182592
   (follows call to halt)
 Function maskCapRights
 Function sameObjectAs
@@ -4112,9 +4079,11 @@ Function cancelIPC
 Function decodeIRQControlInvocation
 Function Arch_finaliseCap
 Function c_handle_syscall
-Warning: dead arc in c_handle_syscall: 49 -&gt; 3758163840
+Warning: dead arc in c_handle_syscall: 27 -&gt; 3758163760
+  (follows call to instruction&apos;ldmdb_sp_r0_r1_r2_r3_r4_r5_r6_r7_r8_r9_sl_fp_ip_sp_lr)
+Warning: dead arc in c_handle_syscall: 31 -&gt; 3758163776
   (follows Basic node!)
-Warning: dead arc in c_handle_syscall: 51 -&gt; 3758163840
+Warning: dead arc in c_handle_syscall: 33 -&gt; 3758163776
   (follows Basic node!)
 Function create_ipcbuf_frame
 Function handleRecv
@@ -4134,7 +4103,7 @@ Function handleInvocation
 Function decodeTCBConfigure
 Function receiveIPC
 Function doFlush
-Warning: dead arc in doFlush: 107 -&gt; 3758171704
+Warning: dead arc in doFlush: 107 -&gt; 3758171640
   (follows call to halt)
 Function finaliseCap
 Function Arch_recycleCap
@@ -4145,271 +4114,271 @@ Function decodeCNodeInvocation
 Function decodeARMMMUInvocation
 Function init_kernel
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_7
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_7: 17 -&gt; 3758171476
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_7: 17 -&gt; 3758171412
   (follows Basic node!)
 Function instruction&apos;isb_sy
-Warning: dead arc in instruction&apos;isb_sy: 17 -&gt; 3758171432
+Warning: dead arc in instruction&apos;isb_sy: 17 -&gt; 3758171368
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_1: 17 -&gt; 3758171428
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_1: 17 -&gt; 3758171364
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr11_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1: 17 -&gt; 3758170688
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1: 17 -&gt; 3758170624
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_ip_cr7_cr10_1
-Warning: dead arc in instruction&apos;mcr_15_0_ip_cr7_cr10_1: 17 -&gt; 3758170544
+Warning: dead arc in instruction&apos;mcr_15_0_ip_cr7_cr10_1: 17 -&gt; 3758170480
   (follows Basic node!)
 Function instruction&apos;dsb_sy
-Warning: dead arc in instruction&apos;dsb_sy: 17 -&gt; 3758170564
+Warning: dead arc in instruction&apos;dsb_sy: 17 -&gt; 3758170500
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr14_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr14_1: 17 -&gt; 3758170488
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr14_1: 17 -&gt; 3758170424
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r4_cr7_cr10_1
-Warning: dead arc in instruction&apos;mcr_15_0_r4_cr7_cr10_1: 17 -&gt; 3758170348
+Warning: dead arc in instruction&apos;mcr_15_0_r4_cr7_cr10_1: 17 -&gt; 3758170284
   (follows Basic node!)
 Function instruction&apos;dsb_sy_1
-Warning: dead arc in instruction&apos;dsb_sy_1: 17 -&gt; 3758170492
+Warning: dead arc in instruction&apos;dsb_sy_1: 17 -&gt; 3758170428
   (follows Basic node!)
 Function instruction&apos;dsb_sy_0
-Warning: dead arc in instruction&apos;dsb_sy_0: 17 -&gt; 3758170368
+Warning: dead arc in instruction&apos;dsb_sy_0: 17 -&gt; 3758170304
   (follows Basic node!)
 Function instruction&apos;dsb_sy_2
-Warning: dead arc in instruction&apos;dsb_sy_2: 17 -&gt; 3758170508
+Warning: dead arc in instruction&apos;dsb_sy_2: 17 -&gt; 3758170444
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr14_cr1_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170308
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170244
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr14_cr1_0
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170304
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr14_cr1_0: 17 -&gt; 3758170240
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr0_cr1_1
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_1: 17 -&gt; 3758170292
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_1: 17 -&gt; 3758170228
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr0_cr1_2
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_2: 17 -&gt; 3758170288
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr0_cr1_2: 17 -&gt; 3758170224
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r2_cr7_cr14_2
-Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr14_2: 17 -&gt; 3758170220
+Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr14_2: 17 -&gt; 3758170156
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r5_cr0_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0: 17 -&gt; 3758170168
+Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0: 17 -&gt; 3758170104
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r2_cr0_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170176
+Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170112
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_sl_cr0_cr0_1
-Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1: 17 -&gt; 3758170108
+Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1: 17 -&gt; 3758170044
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_r3_cr0_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0: 17 -&gt; 3758170172
+Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0: 17 -&gt; 3758170108
   (follows Basic node!)
 Function instruction&apos;mrc_15_2_r2_cr0_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170160
+Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0: 17 -&gt; 3758170096
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r2_cr7_cr10_2
-Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr10_2: 17 -&gt; 3758170036
+Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr10_2: 17 -&gt; 3758169972
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r5_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0_0: 17 -&gt; 3758169984
+Warning: dead arc in instruction&apos;mcr_15_2_r5_cr0_cr0_0_0: 17 -&gt; 3758169920
   (follows Basic node!)
 Function instruction&apos;mcr_15_2_r2_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169992
+Warning: dead arc in instruction&apos;mcr_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169928
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_sl_cr0_cr0_1_0
-Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1_0: 17 -&gt; 3758169924
+Warning: dead arc in instruction&apos;mrc_15_1_sl_cr0_cr0_1_0: 17 -&gt; 3758169860
   (follows Basic node!)
 Function instruction&apos;mrc_15_1_r3_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0_0: 17 -&gt; 3758169988
+Warning: dead arc in instruction&apos;mrc_15_1_r3_cr0_cr0_0_0: 17 -&gt; 3758169924
   (follows Basic node!)
 Function instruction&apos;mrc_15_2_r2_cr0_cr0_0_0
-Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169976
+Warning: dead arc in instruction&apos;mrc_15_2_r2_cr0_cr0_0_0: 17 -&gt; 3758169912
   (follows Basic node!)
 Function instruction&apos;isb_sy_0
-Warning: dead arc in instruction&apos;isb_sy_0: 17 -&gt; 3758166632
+Warning: dead arc in instruction&apos;isb_sy_0: 17 -&gt; 3758166568
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_ip_cr8_cr7_2
-Warning: dead arc in instruction&apos;mcr_15_0_ip_cr8_cr7_2: 17 -&gt; 3758166624
+Warning: dead arc in instruction&apos;mcr_15_0_ip_cr8_cr7_2: 17 -&gt; 3758166560
   (follows Basic node!)
 Function instruction&apos;dsb_sy_3
-Warning: dead arc in instruction&apos;dsb_sy_3: 17 -&gt; 3758166620
+Warning: dead arc in instruction&apos;dsb_sy_3: 17 -&gt; 3758166556
   (follows Basic node!)
 Function instruction&apos;dsb_sy_4
-Warning: dead arc in instruction&apos;dsb_sy_4: 17 -&gt; 3758166628
+Warning: dead arc in instruction&apos;dsb_sy_4: 17 -&gt; 3758166564
   (follows Basic node!)
 Function instruction&apos;isb_sy_3
-Warning: dead arc in instruction&apos;isb_sy_3: 17 -&gt; 3758164020
+Warning: dead arc in instruction&apos;isb_sy_3: 17 -&gt; 3758163956
   (follows Basic node!)
 Function instruction&apos;isb_sy_1
-Warning: dead arc in instruction&apos;isb_sy_1: 17 -&gt; 3758163988
+Warning: dead arc in instruction&apos;isb_sy_1: 17 -&gt; 3758163924
   (follows Basic node!)
 Function instruction&apos;isb_sy_2
-Warning: dead arc in instruction&apos;isb_sy_2: 17 -&gt; 3758163996
+Warning: dead arc in instruction&apos;isb_sy_2: 17 -&gt; 3758163932
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0: 17 -&gt; 3758163984
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0: 17 -&gt; 3758163920
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r1_cr13_cr0_1
-Warning: dead arc in instruction&apos;mcr_15_0_r1_cr13_cr0_1: 17 -&gt; 3758163992
+Warning: dead arc in instruction&apos;mcr_15_0_r1_cr13_cr0_1: 17 -&gt; 3758163928
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr2_cr0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0: 17 -&gt; 3758164016
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0: 17 -&gt; 3758163952
   (follows Basic node!)
 Function instruction&apos;dsb_sy_5
-Warning: dead arc in instruction&apos;dsb_sy_5: 17 -&gt; 3758163964
+Warning: dead arc in instruction&apos;dsb_sy_5: 17 -&gt; 3758163900
   (follows Basic node!)
 Function instruction&apos;wfi
-Warning: dead arc in instruction&apos;wfi: 17 -&gt; 3758163956
+Warning: dead arc in instruction&apos;wfi: 17 -&gt; 3758163892
   (follows Basic node!)
 Function instruction&apos;cpsid_aif
-Warning: dead arc in instruction&apos;cpsid_aif: 17 -&gt; 3758163940
+Warning: dead arc in instruction&apos;cpsid_aif: 17 -&gt; 3758163876
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr7_cr0_4
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr0_4: 17 -&gt; 3758163944
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr0_4: 17 -&gt; 3758163880
   (follows Basic node!)
 Function instruction&apos;isb_sy_4
-Warning: dead arc in instruction&apos;isb_sy_4: 17 -&gt; 3758172320
+Warning: dead arc in instruction&apos;isb_sy_4: 17 -&gt; 3758172256
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0: 17 -&gt; 3758172316
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0: 17 -&gt; 3758172252
   (follows Basic node!)
 Function instruction&apos;dsb_sy_7
-Warning: dead arc in instruction&apos;dsb_sy_7: 17 -&gt; 3758172308
+Warning: dead arc in instruction&apos;dsb_sy_7: 17 -&gt; 3758172244
   (follows Basic node!)
 Function instruction&apos;dsb_sy_8
-Warning: dead arc in instruction&apos;dsb_sy_8: 17 -&gt; 3758172324
+Warning: dead arc in instruction&apos;dsb_sy_8: 17 -&gt; 3758172260
   (follows Basic node!)
 Function instruction&apos;dsb_sy_6
-Warning: dead arc in instruction&apos;dsb_sy_6: 17 -&gt; 3758172300
+Warning: dead arc in instruction&apos;dsb_sy_6: 17 -&gt; 3758172236
   (follows Basic node!)
 Function instruction&apos;isb_sy_5
-Warning: dead arc in instruction&apos;isb_sy_5: 17 -&gt; 3758171728
+Warning: dead arc in instruction&apos;isb_sy_5: 17 -&gt; 3758171664
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr5_0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0_0: 17 -&gt; 3758171724
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr5_0_0: 17 -&gt; 3758171660
   (follows Basic node!)
 Function instruction&apos;dsb_sy_11
-Warning: dead arc in instruction&apos;dsb_sy_11: 17 -&gt; 3758171732
+Warning: dead arc in instruction&apos;dsb_sy_11: 17 -&gt; 3758171668
   (follows Basic node!)
 Function instruction&apos;dsb_sy_10
-Warning: dead arc in instruction&apos;dsb_sy_10: 17 -&gt; 3758171716
+Warning: dead arc in instruction&apos;dsb_sy_10: 17 -&gt; 3758171652
   (follows Basic node!)
 Function instruction&apos;dsb_sy_9
-Warning: dead arc in instruction&apos;dsb_sy_9: 17 -&gt; 3758171708
+Warning: dead arc in instruction&apos;dsb_sy_9: 17 -&gt; 3758171644
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr6_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr6_1: 17 -&gt; 3758171376
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr6_1: 17 -&gt; 3758171312
   (follows Basic node!)
 Function instruction&apos;dsb_sy_12
-Warning: dead arc in instruction&apos;dsb_sy_12: 17 -&gt; 3758171396
+Warning: dead arc in instruction&apos;dsb_sy_12: 17 -&gt; 3758171332
   (follows Basic node!)
 Function instruction&apos;isb_sy_6
-Warning: dead arc in instruction&apos;isb_sy_6: 17 -&gt; 3758167676
+Warning: dead arc in instruction&apos;isb_sy_6: 17 -&gt; 3758167612
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr8_cr7_2
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2: 17 -&gt; 3758167668
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2: 17 -&gt; 3758167604
   (follows Basic node!)
 Function instruction&apos;dsb_sy_13
-Warning: dead arc in instruction&apos;dsb_sy_13: 17 -&gt; 3758167660
+Warning: dead arc in instruction&apos;dsb_sy_13: 17 -&gt; 3758167596
   (follows Basic node!)
 Function instruction&apos;dsb_sy_14
-Warning: dead arc in instruction&apos;dsb_sy_14: 17 -&gt; 3758167672
+Warning: dead arc in instruction&apos;dsb_sy_14: 17 -&gt; 3758167608
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr5_cr0_1
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_1: 17 -&gt; 3758167344
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_1: 17 -&gt; 3758167280
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r3_cr5_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_0: 17 -&gt; 3758167308
+Warning: dead arc in instruction&apos;mrc_15_0_r3_cr5_cr0_0: 17 -&gt; 3758167244
   (follows Basic node!)
 Function instruction&apos;mrc_15_0_r1_cr6_cr0_0
-Warning: dead arc in instruction&apos;mrc_15_0_r1_cr6_cr0_0: 17 -&gt; 3758167304
+Warning: dead arc in instruction&apos;mrc_15_0_r1_cr6_cr0_0: 17 -&gt; 3758167240
   (follows Basic node!)
 Function instruction&apos;isb_sy_7
-Warning: dead arc in instruction&apos;isb_sy_7: 17 -&gt; 3758167168
+Warning: dead arc in instruction&apos;isb_sy_7: 17 -&gt; 3758167104
   (follows Basic node!)
 Function instruction&apos;isb_sy_9
-Warning: dead arc in instruction&apos;isb_sy_9: 17 -&gt; 3758167200
+Warning: dead arc in instruction&apos;isb_sy_9: 17 -&gt; 3758167136
   (follows Basic node!)
 Function instruction&apos;isb_sy_8
-Warning: dead arc in instruction&apos;isb_sy_8: 17 -&gt; 3758167176
+Warning: dead arc in instruction&apos;isb_sy_8: 17 -&gt; 3758167112
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_0: 17 -&gt; 3758167164
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_0: 17 -&gt; 3758167100
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr13_cr0_1
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1: 17 -&gt; 3758167172
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1: 17 -&gt; 3758167108
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr2_cr0_0_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0_0: 17 -&gt; 3758167196
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr2_cr0_0_0: 17 -&gt; 3758167132
   (follows Basic node!)
 Function instruction&apos;dsb_sy_15
-Warning: dead arc in instruction&apos;dsb_sy_15: 17 -&gt; 3758167144
+Warning: dead arc in instruction&apos;dsb_sy_15: 17 -&gt; 3758167080
   (follows Basic node!)
 Function instruction&apos;strex_r0_r1_r3
-Warning: dead arc in instruction&apos;strex_r0_r1_r3: 17 -&gt; 3758167040
+Warning: dead arc in instruction&apos;strex_r0_r1_r3: 17 -&gt; 3758166976
   (follows Basic node!)
-Function instruction&apos;ldr_r3_pc_88_e00107e0_lockTLBEntryCritical_0x20
-Warning: dead arc in instruction&apos;ldr_r3_pc_88_e00107e0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163840
+Function instruction&apos;ldr_r3_pc_88_e00107a0_lockTLBEntryCritical_0x20
+Warning: dead arc in instruction&apos;ldr_r3_pc_88_e00107a0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163776
   (follows Basic node!)
-Function instruction&apos;ldr_r2_pc_56_e00107e0_lockTLBEntryCritical_0x20
-Warning: dead arc in instruction&apos;ldr_r2_pc_56_e00107e0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163872
+Function instruction&apos;ldr_r2_pc_56_e00107a0_lockTLBEntryCritical_0x20
+Warning: dead arc in instruction&apos;ldr_r2_pc_56_e00107a0_lockTLBEntryCritical_0x20: 17 -&gt; 3758163808
   (follows Basic node!)
 Function lockTLBEntryCritical
-Warning: dead arc in lockTLBEntryCritical: 17 -&gt; 3758163904
+Warning: dead arc in lockTLBEntryCritical: 17 -&gt; 3758163840
   (follows Basic node!)
 Function instruction&apos;isb_sy_10
-Warning: dead arc in instruction&apos;isb_sy_10: 17 -&gt; 3758171780
+Warning: dead arc in instruction&apos;isb_sy_10: 17 -&gt; 3758171716
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r4_cr8_cr7_2
-Warning: dead arc in instruction&apos;mcr_15_0_r4_cr8_cr7_2: 17 -&gt; 3758171772
+Warning: dead arc in instruction&apos;mcr_15_0_r4_cr8_cr7_2: 17 -&gt; 3758171708
   (follows Basic node!)
 Function instruction&apos;dsb_sy_17
-Warning: dead arc in instruction&apos;dsb_sy_17: 17 -&gt; 3758171776
+Warning: dead arc in instruction&apos;dsb_sy_17: 17 -&gt; 3758171712
   (follows Basic node!)
 Function instruction&apos;dsb_sy_16
-Warning: dead arc in instruction&apos;dsb_sy_16: 17 -&gt; 3758171764
+Warning: dead arc in instruction&apos;dsb_sy_16: 17 -&gt; 3758171700
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r2_cr7_cr11_1
-Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr11_1: 17 -&gt; 3758167616
+Warning: dead arc in instruction&apos;mcr_15_0_r2_cr7_cr11_1: 17 -&gt; 3758167552
   (follows Basic node!)
 Function instruction&apos;isb_sy_13
-Warning: dead arc in instruction&apos;isb_sy_13: 17 -&gt; 3758166964
+Warning: dead arc in instruction&apos;isb_sy_13: 17 -&gt; 3758166900
   (follows Basic node!)
 Function instruction&apos;isb_sy_11
-Warning: dead arc in instruction&apos;isb_sy_11: 17 -&gt; 3758166836
+Warning: dead arc in instruction&apos;isb_sy_11: 17 -&gt; 3758166772
   (follows Basic node!)
 Function instruction&apos;isb_sy_15
-Warning: dead arc in instruction&apos;isb_sy_15: 17 -&gt; 3758166988
+Warning: dead arc in instruction&apos;isb_sy_15: 17 -&gt; 3758166924
   (follows Basic node!)
 Function instruction&apos;isb_sy_14
-Warning: dead arc in instruction&apos;isb_sy_14: 17 -&gt; 3758166972
+Warning: dead arc in instruction&apos;isb_sy_14: 17 -&gt; 3758166908
   (follows Basic node!)
 Function instruction&apos;isb_sy_12
-Warning: dead arc in instruction&apos;isb_sy_12: 17 -&gt; 3758166924
+Warning: dead arc in instruction&apos;isb_sy_12: 17 -&gt; 3758166860
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_3
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_3: 17 -&gt; 3758166960
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_3: 17 -&gt; 3758166896
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_1: 17 -&gt; 3758166832
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_1: 17 -&gt; 3758166768
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_4
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_4: 17 -&gt; 3758166984
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_4: 17 -&gt; 3758166920
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr2_cr0_0_2
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_2: 17 -&gt; 3758166920
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr2_cr0_0_2: 17 -&gt; 3758166856
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr13_cr0_1_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1_0: 17 -&gt; 3758166968
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr13_cr0_1_0: 17 -&gt; 3758166904
   (follows Basic node!)
 Function instruction&apos;dsb_sy_19
-Warning: dead arc in instruction&apos;dsb_sy_19: 17 -&gt; 3758166900
+Warning: dead arc in instruction&apos;dsb_sy_19: 17 -&gt; 3758166836
   (follows Basic node!)
 Function instruction&apos;dsb_sy_18
-Warning: dead arc in instruction&apos;dsb_sy_18: 17 -&gt; 3758166812
+Warning: dead arc in instruction&apos;dsb_sy_18: 17 -&gt; 3758166748
   (follows Basic node!)
 Function instruction&apos;dsb_sy_20
-Warning: dead arc in instruction&apos;dsb_sy_20: 17 -&gt; 3758166940
+Warning: dead arc in instruction&apos;dsb_sy_20: 17 -&gt; 3758166876
   (follows Basic node!)
 Function instruction&apos;strex_r3_r2_r2
 Warning: dead arc in instruction&apos;strex_r3_r2_r2: 17 -&gt; 3758163360
@@ -4445,43 +4414,46 @@ Function instruction&apos;dsb_sy_22
 Warning: dead arc in instruction&apos;dsb_sy_22: 17 -&gt; 3758098756
   (follows Basic node!)
 Function instruction&apos;isb_sy_18
-Warning: dead arc in instruction&apos;isb_sy_18: 17 -&gt; 3758167540
+Warning: dead arc in instruction&apos;isb_sy_18: 17 -&gt; 3758167476
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr8_cr7_2_0
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2_0: 17 -&gt; 3758167532
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr8_cr7_2_0: 17 -&gt; 3758167468
   (follows Basic node!)
 Function instruction&apos;dsb_sy_25
-Warning: dead arc in instruction&apos;dsb_sy_25: 17 -&gt; 3758167536
+Warning: dead arc in instruction&apos;dsb_sy_25: 17 -&gt; 3758167472
   (follows Basic node!)
 Function instruction&apos;dsb_sy_24
-Warning: dead arc in instruction&apos;dsb_sy_24: 17 -&gt; 3758167524
+Warning: dead arc in instruction&apos;dsb_sy_24: 17 -&gt; 3758167460
   (follows Basic node!)
 Function instruction&apos;isb_sy_19
-Warning: dead arc in instruction&apos;isb_sy_19: 17 -&gt; 3758167460
+Warning: dead arc in instruction&apos;isb_sy_19: 17 -&gt; 3758167396
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr8_cr7_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr8_cr7_1: 17 -&gt; 3758167452
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr8_cr7_1: 17 -&gt; 3758167388
   (follows Basic node!)
 Function instruction&apos;dsb_sy_27
-Warning: dead arc in instruction&apos;dsb_sy_27: 17 -&gt; 3758167456
+Warning: dead arc in instruction&apos;dsb_sy_27: 17 -&gt; 3758167392
   (follows Basic node!)
 Function instruction&apos;dsb_sy_26
-Warning: dead arc in instruction&apos;dsb_sy_26: 17 -&gt; 3758167436
+Warning: dead arc in instruction&apos;dsb_sy_26: 17 -&gt; 3758167372
+  (follows Basic node!)
+Function instruction&apos;ldmdb_sp_r0_r1_r2_r3_r4_r5_r6_r7_r8_r9_sl_fp_ip_sp_lr
+Warning: dead arc in instruction&apos;ldmdb_sp_r0_r1_r2_r3_r4_r5_r6_r7_r8_r9_sl_fp_ip_sp_lr: 17 -&gt; 3758163756
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr11_1_0
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_0: 17 -&gt; 3758170844
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_0: 17 -&gt; 3758170780
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r0_cr7_cr11_1
-Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr11_1: 17 -&gt; 3758171000
+Warning: dead arc in instruction&apos;mcr_15_0_r0_cr7_cr11_1: 17 -&gt; 3758170936
   (follows Basic node!)
 Function instruction&apos;isb_sy_20
-Warning: dead arc in instruction&apos;isb_sy_20: 17 -&gt; 3758171692
+Warning: dead arc in instruction&apos;isb_sy_20: 17 -&gt; 3758171628
   (follows Basic node!)
 Function instruction&apos;dsb_sy_28
-Warning: dead arc in instruction&apos;dsb_sy_28: 17 -&gt; 3758171656
+Warning: dead arc in instruction&apos;dsb_sy_28: 17 -&gt; 3758171592
   (follows Basic node!)
 Function instruction&apos;mcr_15_0_r3_cr7_cr11_1_1
-Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_1: 17 -&gt; 3758201088
+Warning: dead arc in instruction&apos;mcr_15_0_r3_cr7_cr11_1_1: 17 -&gt; 3758201024
   (follows Basic node!)
 Function instruction&apos;isb_sy_21
 Warning: dead arc in instruction&apos;isb_sy_21: 17 -&gt; 3758116008
@@ -4505,33 +4477,33 @@ Testing functions: [&apos;Kernel_C.cancelAllIPC&apos;, &apos;Kernel_C.reschedule
 Testing Function pair Pairing (cancelAllIPC (ASM) &lt;= Kernel_C.cancelAllIPC (C))
   (function pairing 1 of 5)
  .. built problem, finding proof
-ProofNode (&apos;Split&apos;, ((22, (0, 1), [Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r13&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r8&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r11&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r5&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r9&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;ret&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r10&apos;), Expr (&apos;Op&apos;, Type (&apos;Builtin&apos;, &apos;Bool&apos;), name = &apos;ROData&apos;, vals = [Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;mem&apos;)]), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r6&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r7&apos;), Expr (&apos;Op&apos;, Type (&apos;Builtin&apos;, &apos;RelWrapper&apos;), name = &apos;EqSelectiveWrapper&apos;, vals = [Expr (&apos;Op&apos;, Type (&apos;Builtin&apos;, &apos;RelWrapper&apos;), name = &apos;StackWrapper&apos;, vals = [Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r13&apos;), Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;stack&apos;)]), Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Minus&apos;, vals = [Expr (&apos;Num&apos;, Type (Word, 32), val = 0), Expr (&apos;Num&apos;, Type (Word, 32), val = 0)]), Expr (&apos;Num&apos;, Type (Word, 32), val = 0)])]), (9, (0, 1), [Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Plus&apos;, vals = [Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;loop#3#count&apos;), Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Times&apos;, vals = [Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Minus&apos;, vals = [Expr (&apos;Num&apos;, Type (Word, 32), val = 0), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;%i&apos;)]), Expr (&apos;Num&apos;, Type (Word, 32), val = 1)])])]), [(Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;mem&apos;), Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;Mem&apos;)), (Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r0&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;thread#v&apos;)), (Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r4&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;thread#v&apos;))], 2, 1), (ProofNode (&apos;Restr&apos;, (22, (&apos;Number&apos;, (0, 3))), (ProofNode (&apos;Restr&apos;, (9, (&apos;Number&apos;, (0, 3))), (ProofNode (&apos;Leaf&apos;, None, ()),)),)), ProofNode (&apos;Restr&apos;, (22, (&apos;Offset&apos;, (0, 3))), (ProofNode (&apos;Restr&apos;, (9, (&apos;Offset&apos;, (0, 3))), (ProofNode (&apos;Leaf&apos;, None, ()),)),))))
+ProofNode (&apos;Split&apos;, ((39, (0, 1), [Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r13&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r8&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r7&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r11&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r5&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r9&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;ret&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r10&apos;), Expr (&apos;Op&apos;, Type (&apos;Builtin&apos;, &apos;Bool&apos;), name = &apos;ROData&apos;, vals = [Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;mem&apos;)]), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r6&apos;), Expr (&apos;Op&apos;, Type (&apos;Builtin&apos;, &apos;RelWrapper&apos;), name = &apos;EqSelectiveWrapper&apos;, vals = [Expr (&apos;Op&apos;, Type (&apos;Builtin&apos;, &apos;RelWrapper&apos;), name = &apos;StackWrapper&apos;, vals = [Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r13&apos;), Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;stack&apos;)]), Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Minus&apos;, vals = [Expr (&apos;Num&apos;, Type (Word, 32), val = 0), Expr (&apos;Num&apos;, Type (Word, 32), val = 0)]), Expr (&apos;Num&apos;, Type (Word, 32), val = 0)])]), (9, (0, 1), [Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Plus&apos;, vals = [Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;loop#3#count&apos;), Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Times&apos;, vals = [Expr (&apos;Op&apos;, Type (Word, 32), name = &apos;Minus&apos;, vals = [Expr (&apos;Num&apos;, Type (Word, 32), val = 0), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;%i&apos;)]), Expr (&apos;Num&apos;, Type (Word, 32), val = 1)])])]), [(Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;mem&apos;), Expr (&apos;Var&apos;, Type (&apos;Builtin&apos;, &apos;Mem&apos;), name = &apos;Mem&apos;)), (Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r0&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;thread#v&apos;)), (Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;r4&apos;), Expr (&apos;Var&apos;, Type (Word, 32), name = &apos;thread#v&apos;))], 2, 1), (ProofNode (&apos;Restr&apos;, (39, (&apos;Number&apos;, (0, 3))), (ProofNode (&apos;Restr&apos;, (9, (&apos;Number&apos;, (0, 3))), (ProofNode (&apos;Leaf&apos;, None, ()),)),)), ProofNode (&apos;Restr&apos;, (39, (&apos;Offset&apos;, (0, 3))), (ProofNode (&apos;Restr&apos;, (9, (&apos;Offset&apos;, (0, 3))), (ProofNode (&apos;Leaf&apos;, None, ()),)),))))
  .. proof found.
 Step 1: 
-  prove visits to 22 related to visits to 9
+  prove visits to 39 related to visits to 9
     with equalities
-      ((Mem) (&apos;mem&apos;)) (@ addr 22)
+      ((Mem) (&apos;mem&apos;)) (@ addr 39)
       = ((Mem) (&apos;Mem&apos;)) (@ addr 9)
-      ((Word32) (&apos;r0&apos;)) (@ addr 22)
+      ((Word32) (&apos;r0&apos;)) (@ addr 39)
       = ((Word32) (&apos;thread#v&apos;)) (@ addr 9)
-      ((Word32) (&apos;r4&apos;)) (@ addr 22)
+      ((Word32) (&apos;r4&apos;)) (@ addr 39)
       = ((Word32) (&apos;thread#v&apos;)) (@ addr 9)
     and with invariants
-      ((Word32) (&apos;r13&apos;)) (@ addr 22)
-      ((Word32) (&apos;r8&apos;)) (@ addr 22)
-      ((Word32) (&apos;r11&apos;)) (@ addr 22)
-      ((Word32) (&apos;r5&apos;)) (@ addr 22)
-      ((Word32) (&apos;r9&apos;)) (@ addr 22)
-      ((Word32) (&apos;ret&apos;)) (@ addr 22)
-      ((Word32) (&apos;r10&apos;)) (@ addr 22)
-      ((Bool) (ROData(&apos;mem&apos;))) (@ addr 22)
-      ((Word32) (&apos;r6&apos;)) (@ addr 22)
-      ((Word32) (&apos;r7&apos;)) (@ addr 22)
-      ((RelWrapper) (EqSelectiveWrapper(StackWrapper(((Word32) (&apos;r13&apos;)), ((Mem) (&apos;stack&apos;))), ((Word32) ((0 - 0))), ((Word32) (0))))) (@ addr 22)
+      ((Word32) (&apos;r13&apos;)) (@ addr 39)
+      ((Word32) (&apos;r8&apos;)) (@ addr 39)
+      ((Word32) (&apos;r7&apos;)) (@ addr 39)
+      ((Word32) (&apos;r11&apos;)) (@ addr 39)
+      ((Word32) (&apos;r5&apos;)) (@ addr 39)
+      ((Word32) (&apos;r9&apos;)) (@ addr 39)
+      ((Word32) (&apos;ret&apos;)) (@ addr 39)
+      ((Word32) (&apos;r10&apos;)) (@ addr 39)
+      ((Bool) (ROData(&apos;mem&apos;))) (@ addr 39)
+      ((Word32) (&apos;r6&apos;)) (@ addr 39)
+      ((RelWrapper) (EqSelectiveWrapper(StackWrapper(((Word32) (&apos;r13&apos;)), ((Mem) (&apos;stack&apos;))), ((Word32) ((0 - 0))), ((Word32) (0))))) (@ addr 39)
       ((Word32) ((&apos;loop#3#count&apos; + ((0 - &apos;#seq-visits&apos;) * 1)))) (@ addr 9)
     .. proven.
 Step 2: case in (1) where the length of the sequence &lt; 2
-  Prove the number of visits to 22 is in {0 ..&lt; 3}
+  Prove the number of visits to 39 is in {0 ..&lt; 3}
     .. proven.
 Step 3: 
   Prove the number of visits to 9 is in {0 ..&lt; 3}
@@ -4540,7 +4512,7 @@ Step 4:
   prove all verification conditions
     .. proven.
 Step 5: case in (1) where the length of the sequence is i + 2
-  Prove the number of visits to 22 is in {i + 0 ..&lt; i + 3}
+  Prove the number of visits to 39 is in {i + 0 ..&lt; i + 3}
     .. proven.
 Step 6: 
   Prove the number of visits to 9 is in {i + 0 ..&lt; i + 3}
